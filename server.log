@@ -1,40 +1,26 @@
-[22:09:59] alt:V Server 2.23 (release)
-[22:09:59] Starting alt:V Server on 192.168.1.13:7788
-[22:09:59] coreclr-module: dotnet core sdk not found in C:\Program Files/dotnet/host/fxr/
-[22:09:59][Error] Failed to execute altMain function in "D:\\Blaine Life\\Pursuit\\modules\\csharp-module.dll"
+[23:17:43] alt:V Server 2.23 (release)
+[23:17:43] Starting alt:V Server on 192.168.1.13:7788
+[23:17:43] coreclr-module: dotnet core sdk not found in C:\Program Files/dotnet/host/fxr/
+[23:17:43][Error] Failed to execute altMain function in "D:\\Blaine Life\\altv-tdm\\modules\\csharp-module.dll"
 	 The module could not be executed.
-[22:09:59] Loading resource freeroam
-[22:09:59] Loading resource server-extended
-[22:09:59] Loaded resource server-extended
-[22:09:59] Loading resource chat
-[22:09:59] Loaded resource chat
-[22:09:59] Loading resource trainer
-[22:09:59] Loaded resource trainer
-[22:09:59] Loading resource notifications
-[22:09:59] Loaded resource notifications
-[22:09:59] Loading resource timer
-[22:09:59] Loaded resource timer
-[22:09:59] Loaded resource freeroam
-[22:09:59] Required server permissions:
-[22:09:59] Optional server permissions:
-[22:09:59] Starting HTTP server on 192.168.1.13:7788
-[22:09:59] Main thread started (ThreadId: 15416)
-[22:09:59] Colshape thread started (ThreadId: 20044)
-[22:09:59] EntityStreamer thread started (ThreadId: 16368)
-[22:09:59] Network thread started (ThreadId: 18068)
-[22:09:59] Console thread started (ThreadId: 17496)
-[22:09:59] Server started
-[22:10:07] [chat:cmd] Player: /timer 10
-[22:17:15] Stopping resource freeroam
-[22:17:15] Stopped resource freeroam
-[22:17:15] Stopping resource server-extended
-[22:17:15] Stopped resource server-extended
-[22:17:15] Stopping resource chat
-[22:17:15] Stopped resource chat
-[22:17:15] Stopping resource timer
-[22:17:15] Stopped resource timer
-[22:17:15] Stopping resource trainer
-[22:17:15] Stopped resource trainer
-[22:17:15] Stopping resource notifications
-[22:17:15] Stopped resource notifications
-[22:17:16] Server shutdown
+[23:17:43] Loading resource freeroam
+[23:17:43] Loading resource server-extended
+[23:17:43] Loaded resource server-extended
+[23:17:43] Loading resource chat
+[23:17:43] Loaded resource chat
+[23:17:43] Loading resource trainer
+[23:17:43] Loaded resource trainer
+[23:17:43] Loading resource notifications
+[23:17:43] Loaded resource notifications
+[23:17:43] Loading resource timer
+[23:17:43] Loaded resource timer
+[23:17:43][Error] Failed to load resource freeroam
+[23:17:43] Required server permissions:
+[23:17:43] Optional server permissions:
+[23:17:43] Starting HTTP server on 192.168.1.13:7788
+[23:17:43] Main thread started (ThreadId: 3956)
+[23:17:43] Colshape thread started (ThreadId: 5796)
+[23:17:43] EntityStreamer thread started (ThreadId: 18472)
+[23:17:43] Network thread started (ThreadId: 2332)
+[23:17:43] Console thread started (ThreadId: 1388)
+[23:17:43] Server started
