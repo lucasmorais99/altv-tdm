@@ -462,3 +462,11 @@ export const skinVagos = [
 	'mp_m_g_vagfun_01',
 	'ig_vagspeak'
 ];
+
+export const skinLSPD = [
+	's_f_y_sheriff_01',
+	's_m_y_sheriff_01',
+	'mp_m_fibsec_01',
+	's_f_y_cop_01',
+	' s_m_y_cop_01'
+];

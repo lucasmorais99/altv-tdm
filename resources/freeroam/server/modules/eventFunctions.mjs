@@ -4,6 +4,7 @@ import * as chat from 'chat'; //https://github.com/team-stuyk-alt-v/altV-Chat-Ex
 import { skinList } from './skins.mjs';
 import { skinBallas } from './skins.mjs';
 import { skinVagos } from './skins.mjs';
+import { skinLSPD } from './skins.mjs';
 import { weaponList } from './weapons.mjs';
 import * as utility from './utility.mjs';
 
@@ -68,7 +69,7 @@ export function setPlayerTeam(player, sel) {
 		const randomBallas = Math.floor(Math.random() * skinBallas.length);
 		player.model = alt.hash(skinBallas[randomBallas]);
 		utility.loadModelForPlayers(player);
-		player.giveWeapon(weaponList['pistol'], 48, true);
+		player.giveWeapon(weaponList['pistol'], 48, false);
 		const spawnBallas = { x: 176.43, y: -1736.61, z: 29.27}
 		player.pos = extended.RandomPosAround(spawnBallas, 5);
 		player.dimension = 0;
@@ -77,11 +78,21 @@ export function setPlayerTeam(player, sel) {
 		const randomVagos = Math.floor(Math.random() * skinVagos.length);
 		player.model = alt.hash(skinVagos[randomVagos]);
 		utility.loadModelForPlayers(player);
-		player.giveWeapon(weaponList['pistol'], 48, true);
+		player.giveWeapon(weaponList['pistol'], 48, false);
 		const spawnVagos = { x: 61.33, y: -1567, z: 29.44}
 		player.pos = extended.RandomPosAround(spawnVagos, 5);
 		player.dimension = 0;
 	}
+	else if (sel == 'LSPD'){
+		const randomLSPD = Math.floor(Math.random() * skinLSPD.length);
+		player.model = alt.hash(skinLSPD[randomLSPD]);
+		utility.loadModelForPlayers(player);
+		player.giveWeapon(weaponList['pistolmk2'], 48, false);
+		player.giveWeapon(weaponList['pumpshotgun'], 48, false);
+		const spawnLSPD = { x: 359.14, y: -1582, z: 29.27}
+		player.pos = extended.RandomPosAround(spawnLSPD, 5);
+		player.dimension = 0;
+	}	
 }
 
 function SpawnPlayer(player) {
@@ -96,7 +107,7 @@ function SpawnPlayer(player) {
 		player.health = 200;
 	}, 1000);
     
-	alt.emitClient(null, 'notifications:showWithPicture', 'Bem-vindo ao Blaine TDM', 'Element & LucasMorais', 'Aperte F2 para selecionar a sua equipe e começar a jogar!', 'CHAR_BLANK_ENTRY', 1, false, -1, 13);
+	alt.emitClient(null, 'notifications:showWithPicture', 'Bem-vindo ao Blaine TDM', 'Por: Element & LucasMorais', 'Aperte F2 para selecionar a sua equipe e começar a jogar!', 'CHAR_BLANK_ENTRY', 1, false, -1, 13);
 	
 	// Setup for extended / chat
 	chat.setupPlayer(player);
