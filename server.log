@@ -24,3 +24,219 @@
 [01:52:37] Network thread started (ThreadId: 840)
 [01:52:37] Console thread started (ThreadId: 5392)
 [01:52:37] Server started
+[01:54:29] [chat:cmd] Player: /timer 10
+[02:01:39][Warning] For changes in permissions, restarting server is required for changes to apply
+[02:01:39] Stopping resource chat
+[02:01:39] Stopping resource freeroam
+[02:01:39] Stopped resource freeroam
+[02:01:39] Stopped resource chat
+[02:01:39] Loading resource chat
+[02:01:39] Loaded resource chat
+[02:01:39] Loading resource freeroam
+[02:01:39][Error] Failed to load resource freeroam
+[02:01:53] Stopping resource chat
+[02:01:53] Stopped resource chat
+[02:01:53] Loading resource chat
+[02:01:53] Loaded resource chat
+[02:01:57][Error] No such resource freeroam is loaded
+[02:02:02] Loading resource freeroam
+[02:02:02] Loaded resource freeroam
+[02:02:06] Stopping resource chat
+[02:02:06] Stopping resource freeroam
+[02:02:06] Stopped resource freeroam
+[02:02:06] Stopped resource chat
+[02:02:06] Loading resource chat
+[02:02:06] Loaded resource chat
+[02:02:06] Loading resource freeroam
+[02:02:06] Loaded resource freeroam
+[02:02:14][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:18
+[02:02:14][Error]   		player.fadeScreen(true, 5000);
+[02:02:14][Error]   TypeError: player.fadeScreen is not a function
+    at playerFirstJoin (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:18:10)
+[02:02:32] Stopping resource chat
+[02:02:32] Stopping resource freeroam
+[02:02:32] Stopped resource freeroam
+[02:02:32] Stopped resource chat
+[02:02:32] Loading resource chat
+[02:02:32] Loaded resource chat
+[02:02:32] Loading resource freeroam
+[02:02:33] Loaded resource freeroam
+[02:02:35][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:18
+[02:02:35][Error]   		player.fadeScreen(true, 5000);
+[02:02:35][Error]   TypeError: player.fadeScreen is not a function
+    at playerFirstJoin (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:18:10)
+[02:02:37][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:77
+[02:02:37][Error]   		native.playSoundFrontend(-1, "Deliver_Item", "GTAO_Biker_Modes_Soundset", fals...
+[02:02:37][Error]   ReferenceError: native is not defined
+    at setPlayerTeam (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:77:3)
+[02:07:26] Stopping resource chat
+[02:07:26] Stopping resource freeroam
+[02:07:26] Stopped resource freeroam
+[02:07:26] Stopped resource chat
+[02:07:26] Loading resource chat
+[02:07:26] Loaded resource chat
+[02:07:26] Loading resource freeroam
+[02:07:26] Loaded resource freeroam
+[02:07:28][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:18
+[02:07:28][Error]   		player.fadeScreen(true, 5000);
+[02:07:28][Error]   TypeError: player.fadeScreen is not a function
+    at playerFirstJoin (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:18:10)
+[02:07:52] Stopping resource chat
+[02:07:52] Stopping resource freeroam
+[02:07:52] Stopped resource freeroam
+[02:07:52] Stopped resource chat
+[02:07:52] Loading resource chat
+[02:07:52] Loaded resource chat
+[02:07:52] Loading resource freeroam
+[02:07:52] Loaded resource freeroam
+[02:07:56][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:18
+[02:07:56][Error]   		player.fadeScreen(true, 5000);
+[02:07:56][Error]   TypeError: player.fadeScreen is not a function
+    at playerFirstJoin (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:18:10)
+[02:10:21] Stopping resource chat
+[02:10:21] Stopping resource freeroam
+[02:10:21] Stopped resource freeroam
+[02:10:21] Stopped resource chat
+[02:10:21] Loading resource chat
+[02:10:21] Loaded resource chat
+[02:10:21] Loading resource freeroam
+[02:10:21] Loaded resource freeroam
+[02:10:24][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:18
+[02:10:24][Error]   		player.fadeScreen(true, 5000);
+[02:10:24][Error]   TypeError: player.fadeScreen is not a function
+    at playerFirstJoin (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:18:10)
+[02:13:51] Stopping resource chat
+[02:13:51] Stopping resource freeroam
+[02:13:51] Stopped resource freeroam
+[02:13:51] Stopped resource chat
+[02:13:51] Loading resource chat
+[02:13:51] Loaded resource chat
+[02:13:51] Loading resource freeroam
+[02:13:51] Loaded resource freeroam
+[02:13:54][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:18
+[02:13:54][Error]   		player.fadeScreen(true, 5000);
+[02:13:54][Error]   TypeError: player.fadeScreen is not a function
+    at playerFirstJoin (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:18:10)
+[02:16:16] Stopping resource chat
+[02:16:16] Stopping resource freeroam
+[02:16:16] Stopped resource freeroam
+[02:16:16] Stopped resource chat
+[02:16:16] Loading resource chat
+[02:16:16] Loaded resource chat
+[02:16:16] Loading resource freeroam
+[02:16:16] Loaded resource freeroam
+[02:16:19][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:18
+[02:16:19][Error]   		player.fadeScreen(true, 5000);
+[02:16:19][Error]   TypeError: player.fadeScreen is not a function
+    at playerFirstJoin (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:18:10)
+[02:19:00] Stopping resource chat
+[02:19:00] Stopping resource freeroam
+[02:19:00] Stopped resource freeroam
+[02:19:00] Stopped resource chat
+[02:19:00] Loading resource chat
+[02:19:00] Loaded resource chat
+[02:19:00] Loading resource freeroam
+[02:19:00] Loaded resource freeroam
+[02:19:04][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:19
+[02:19:04][Error]   		player.fadeScreen(true, 5000);
+[02:19:04][Error]   TypeError: player.fadeScreen is not a function
+    at playerFirstJoin (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:19:10)
+[02:19:08][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:98
+[02:19:08][Error]   		player.spawnVehicle('police');
+[02:19:08][Error]   TypeError: player.spawnVehicle is not a function
+    at setPlayerTeam (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:98:10)
+[02:19:08][Warning] Event handler at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/events.mjs:21 was too long 26ms
+[02:19:09][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:98
+[02:19:09][Error]   		player.spawnVehicle('police');
+[02:19:09][Error]   TypeError: player.spawnVehicle is not a function
+    at setPlayerTeam (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:98:10)
+[02:19:22] Stopping resource chat
+[02:19:22] Stopping resource freeroam
+[02:19:22] Stopped resource freeroam
+[02:19:22] Stopped resource chat
+[02:19:22] Loading resource chat
+[02:19:22] Loaded resource chat
+[02:19:22] Loading resource freeroam
+[02:19:22] Loaded resource freeroam
+[02:19:24][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:19
+[02:19:24][Error]   		player.fadeScreen(true, 5000);
+[02:19:24][Error]   TypeError: player.fadeScreen is not a function
+    at playerFirstJoin (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:19:10)
+[02:19:26][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/commandFunctions.mjs:68
+[02:19:26][Error]   	if (!arg[0])
+[02:19:26][Error]   TypeError: Cannot read property '0' of undefined
+    at spawnVehicle (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/commandFunctions.mjs:68:10)
+    at setPlayerTeam (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:98:3)
+[02:21:08] Stopping resource chat
+[02:21:08] Stopping resource freeroam
+[02:21:08] Stopped resource freeroam
+[02:21:08] Stopped resource chat
+[02:21:08] Loading resource chat
+[02:21:08] Loaded resource chat
+[02:21:08] Loading resource freeroam
+[02:21:09] Loaded resource freeroam
+[02:21:11][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:18
+[02:21:11][Error]   		player.fadeScreen(true, 5000);
+[02:21:11][Error]   TypeError: player.fadeScreen is not a function
+    at playerFirstJoin (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:18:10)
+[02:21:13][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:78
+[02:21:13][Error]   		new alt.Vehicle('tornado', positionNear.x, positionNear.y, positionNear.z, 0, ...
+[02:21:13][Error]   ReferenceError: positionNear is not defined
+    at setPlayerTeam (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:78:30)
+[02:21:33] [chat:cmd] Player: /pos
+[02:21:33][Warning] Event handler at chat:file:///D:/Blaine%20Life/altv-tdm/resources/chat/index.mjs:19 was too long 39ms
+[02:21:51] Stopping resource chat
+[02:21:51] Stopping resource freeroam
+[02:21:51] Stopped resource freeroam
+[02:21:51] Stopped resource chat
+[02:21:51] Loading resource chat
+[02:21:51] Loaded resource chat
+[02:21:51] Loading resource freeroam
+[02:21:51] Loaded resource freeroam
+[02:21:54][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:18
+[02:21:54][Error]   		player.fadeScreen(true, 5000);
+[02:21:54][Error]   TypeError: player.fadeScreen is not a function
+    at playerFirstJoin (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:18:10)
+[02:21:56][Warning] Event handler at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/events.mjs:21 was too long 22ms
+[02:23:19] Stopping resource chat
+[02:23:19] Stopping resource freeroam
+[02:23:19] Stopped resource freeroam
+[02:23:19] Stopped resource chat
+[02:23:19] Loading resource chat
+[02:23:19] Loaded resource chat
+[02:23:19] Loading resource freeroam
+[02:23:19] Loaded resource freeroam
+[02:23:22][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:18
+[02:23:22][Error]   		player.fadeScreen(true, 5000);
+[02:23:22][Error]   TypeError: player.fadeScreen is not a function
+    at playerFirstJoin (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:18:10)
+[02:23:24][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:78
+[02:23:24][Error]   		vehicle = new alt.Vehicle('tornado', 162.29, -1735.56, 29.29, 0, 0, 0);
+[02:23:24][Error]   ReferenceError: vehicle is not defined
+    at setPlayerTeam (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:78:11)
+[02:23:24][Warning] Event handler at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/events.mjs:21 was too long 24ms
+[02:29:18] Stopping resource chat
+[02:29:18] Stopping resource freeroam
+[02:29:18] Stopped resource freeroam
+[02:29:18] Stopped resource chat
+[02:29:18] Loading resource chat
+[02:29:18] Loaded resource chat
+[02:29:18] Loading resource freeroam
+[02:29:18] Loaded resource freeroam
+[02:29:21][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:18
+[02:29:21][Error]   		player.fadeScreen(true, 5000);
+[02:29:21][Error]   TypeError: player.fadeScreen is not a function
+    at playerFirstJoin (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:18:10)
+[02:30:22] Stopping resource server-extended
+[02:30:22] Stopping resource freeroam
+[02:30:22] Stopped resource freeroam
+[02:30:22] Stopped resource server-extended
+[02:30:22] Stopping resource timer
+[02:30:22] Stopped resource timer
+[02:30:22] Stopping resource trainer
+[02:30:22] Stopped resource trainer
+[02:30:22] Stopping resource notifications
+[02:30:22] Stopped resource notifications
+[02:30:22] Stopping resource chat
+[02:30:22] Stopped resource chat
+[02:30:22] Server shutdown

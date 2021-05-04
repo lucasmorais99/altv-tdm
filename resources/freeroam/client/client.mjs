@@ -93,6 +93,8 @@ alt.on('update', () => {
 // Menu de equipes
 
 const ui = new NativeUI.Menu("Equipes", "Selecione a sua equipe:", new NativeUI.Point(50, 50));
+ui.GetTitle().DropShadow = true;
+
 ui.AddItem(new NativeUI.UIMenuListItem(
   	"Equipe",
    	"Mocinho ou malvado, aqui você pode ser o que quiser.",
@@ -110,6 +112,10 @@ ui.ItemSelect.on(item => {
 		
 		alt.emitServer('setPlayerTeam', sel);
    	}
+});
+
+alt.on('connectionComplete', (player) => {
+	ui.Open();
 });
 
 alt.on('keyup', (key) => {

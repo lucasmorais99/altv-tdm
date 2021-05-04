@@ -75,6 +75,11 @@ export function setPlayerTeam(player, sel) {
 		const spawnBallas = { x: 176.43, y: -1736.61, z: 29.27}
 		player.pos = extended.RandomPosAround(spawnBallas, 5);
 		player.dimension = 0;
+		player.personalVehicle.destroy();
+		player.personalVehicle = new alt.Vehicle('faction', player.pos.x, player.pos.y, player.pos.z 0, 0, 0);
+		player.personalVehicle.dimension = player.dimension;
+		alt.emitClient(player, 'warpIntoVehicle', player.personalVehicle);
+		chat.send(player, `Você recebeu um veículo modelo {FFF000}Faction{FFFFFF} por ter se juntado aos ${sel}.`);
 	}
 	else if (sel == 'Vagos'){
 		const randomVagos = Math.floor(Math.random() * skinVagos.length);
@@ -84,6 +89,11 @@ export function setPlayerTeam(player, sel) {
 		const spawnVagos = { x: 61.33, y: -1567, z: 29.44}
 		player.pos = extended.RandomPosAround(spawnVagos, 5);
 		player.dimension = 0;
+		player.personalVehicle.destroy();
+		player.personalVehicle = new alt.Vehicle('tornado', player.pos.x, player.pos.y, player.pos.z, 0, 0, 0);
+		player.personalVehicle.dimension = player.dimension;
+		alt.emitClient(player, 'warpIntoVehicle', player.personalVehicle);
+		chat.send(player, `Você recebeu um veículo modelo {FFF000}Tornado{FFFFFF} por ter se juntado aos ${sel}.`);
 	}
 	else if (sel == 'LSPD'){
 		const randomLSPD = Math.floor(Math.random() * skinLSPD.length);
@@ -94,6 +104,11 @@ export function setPlayerTeam(player, sel) {
 		const spawnLSPD = { x: 359.14, y: -1582, z: 29.27}
 		player.pos = extended.RandomPosAround(spawnLSPD, 5);
 		player.dimension = 0;
+		player.personalVehicle.destroy();
+		player.personalVehicle = new alt.Vehicle('police3', player.pos.x, player.pos.y, player.pos.z, 0, 0, 0);
+		player.personalVehicle.dimension = player.dimension;
+		alt.emitClient(player, 'warpIntoVehicle', player.personalVehicle);
+		chat.send(player, `Você recebeu um veículo modelo {FFF000}Police Cruiser{FFFFFF} por ter se juntado à ${sel}.`);
 	}	
 }
 
