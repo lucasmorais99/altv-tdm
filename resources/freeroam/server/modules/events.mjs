@@ -12,6 +12,7 @@ setInterval(eventFuncs.checkDisconnects, 5000);
 
 // Called when the player dies.
 alt.on('playerDeath', eventFuncs.respawnPlayer);
+alt.on('playerDeath', eventFuncs.onPlayerDeath);
 
 // Called when the player kill themself.
 alt.onClient('killSelf', (player) => {

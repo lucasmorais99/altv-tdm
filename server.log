@@ -1,88 +1,30 @@
-[13:48:59] alt:V Server 2.23 (release)
-[13:48:59] Starting alt:V Server on 192.168.1.13:7788
-[13:48:59] coreclr-module: version found: 5.0.5
-[13:48:59] coreclr-module: greatest version: 5.0.5
-[13:48:59] Loading resource chat
-[13:48:59] Loaded resource chat
-[13:48:59] Loading resource freeroam
-[13:48:59] Loading resource server-extended
-[13:48:59] Loaded resource server-extended
-[13:48:59] Loading resource trainer
-[13:48:59] Loaded resource trainer
-[13:48:59] Loading resource notifications
-[13:48:59] Loaded resource notifications
-[13:48:59] Loading resource timer
-[13:48:59] Loaded resource timer
-[13:48:59] Loaded resource freeroam
-[13:48:59] Required server permissions:
-[13:48:59] Optional server permissions:
-[13:48:59] Starting HTTP server on 192.168.1.13:7788
-[13:48:59] Main thread started (ThreadId: 10144)
-[13:48:59] Colshape thread started (ThreadId: 18980)
-[13:48:59] EntityStreamer thread started (ThreadId: 22460)
-[13:48:59] Network thread started (ThreadId: 19544)
-[13:48:59] Console thread started (ThreadId: 17312)
-[13:48:59] Server started
-[13:49:05] ReferenceError: sel is not defined
-[13:50:06][Warning] For changes in permissions, restarting server is required for changes to apply
-[13:50:06] Stopping resource chat
-[13:50:06] Stopping resource freeroam
-[13:50:06] Stopped resource freeroam
-[13:50:06] Stopped resource chat
-[13:50:06] Loading resource chat
-[13:50:06] Loaded resource chat
-[13:50:06] Loading resource freeroam
-[13:50:06] Loaded resource freeroam
-[13:50:11][Warning] Event handler at chat:file:///D:/Blaine%20Life/altv-tdm/resources/chat/index.mjs:19 was too long 19ms
-[13:51:34] Stopping resource chat
-[13:51:34] Stopping resource freeroam
-[13:51:34] Stopped resource freeroam
-[13:51:34] Stopped resource chat
-[13:51:34] Loading resource chat
-[13:51:34] Loaded resource chat
-[13:51:34] Loading resource freeroam
-[13:51:34] Loaded resource freeroam
-[13:51:36] TypeError: Cannot read property 'destroy' of undefined
-[13:51:41] TypeError: Cannot read property 'destroy' of undefined
-[13:51:50] TypeError: Cannot read property 'destroy' of undefined
-[13:52:14] Stopping resource chat
-[13:52:14] Stopping resource freeroam
-[13:52:14] Stopped resource freeroam
-[13:52:14] Stopped resource chat
-[13:52:14] Loading resource chat
-[13:52:14] Loaded resource chat
-[13:52:14] Loading resource freeroam
-[13:52:15] Loaded resource freeroam
-[13:52:32] Error: baseobject is invalid
-[13:52:39] Error: baseobject is invalid
-[13:52:47] Error: baseobject is invalid
-[13:53:34] Stopping resource chat
-[13:53:34] Stopping resource freeroam
-[13:53:34] Stopped resource freeroam
-[13:53:34] Stopped resource chat
-[13:53:34] Loading resource chat
-[13:53:34] Loaded resource chat
-[13:53:34] Loading resource freeroam
-[13:53:34] Loaded resource freeroam
-[13:54:13] Erro (PHV = true): Error: baseobject is invalid
-[13:54:25] Erro (PHV = true): Error: baseobject is invalid
-[13:56:07] Stopping resource chat
-[13:56:07] Stopping resource freeroam
-[13:56:07] Stopped resource freeroam
-[13:56:07] Stopped resource chat
-[13:56:07] Loading resource chat
-[13:56:07] Loaded resource chat
-[13:56:07] Loading resource freeroam
-[13:56:07] Loaded resource freeroam
-[13:57:07] Stopping resource server-extended
-[13:57:07] Stopping resource freeroam
-[13:57:07] Stopped resource freeroam
-[13:57:07] Stopped resource server-extended
-[13:57:07] Stopping resource timer
-[13:57:07] Stopped resource timer
-[13:57:07] Stopping resource trainer
-[13:57:07] Stopped resource trainer
-[13:57:07] Stopping resource notifications
-[13:57:07] Stopped resource notifications
-[13:57:07] Stopping resource chat
-[13:57:07] Stopped resource chat
+[15:01:52] alt:V Server 2.23 (release)
+[15:01:52] Starting alt:V Server on 192.168.1.13:7788
+[15:01:52] coreclr-module: version found: 5.0.5
+[15:01:52] coreclr-module: greatest version: 5.0.5
+[15:01:52] Loading resource chat
+[15:01:52] Loaded resource chat
+[15:01:52] Loading resource freeroam
+[15:01:52] Loading resource server-extended
+[15:01:52] Loaded resource server-extended
+[15:01:52] Loading resource trainer
+[15:01:52] Loaded resource trainer
+[15:01:52] Loading resource notifications
+[15:01:52] Loaded resource notifications
+[15:01:52] Loading resource timer
+[15:01:52] Loaded resource timer
+[15:01:53] Loaded resource freeroam
+[15:01:53] Required server permissions:
+[15:01:53] Optional server permissions:
+[15:01:53] Starting HTTP server on 192.168.1.13:7788
+[15:01:53] Main thread started (ThreadId: 5444)
+[15:01:53] Colshape thread started (ThreadId: 22268)
+[15:01:53] EntityStreamer thread started (ThreadId: 20100)
+[15:01:53] Network thread started (ThreadId: 20900)
+[15:01:53] Console thread started (ThreadId: 6356)
+[15:01:53] Server started
+[15:02:05] [chat:cmd] Player: /kill
+[15:02:14] [chat:cmd] Player: /kill
+[15:02:23] [chat:cmd] Player: /kill
+[15:13:30] [chat:cmd] Player: /pos
+[15:13:30][Warning] Event handler at chat:file:///D:/Blaine%20Life/altv-tdm/resources/chat/index.mjs:19 was too long 42ms

@@ -111,6 +111,8 @@ ui.ItemSelect.on(item => {
 		notifications.showWithPicture('Mensagem da facção', 'Seu líder', `Agora você é da facção ${sel}. Lute por eles e derrote os inimigos.`, 'CHAR_BLANK_ENTRY', 1, false, -1, 3);
 		
 		alt.emitServer('setPlayerTeam', sel);
+
+		ui.Close();
    	}
 });
 

@@ -12,7 +12,11 @@ const spawnBallas = { x: 176.43, y: -1736.61, z: 29.27 };
 const spawnVagos = { x: 61.33, y: -1567, z: 29.44 };
 const spawnLSPD = { x: 359.14, y: -1582, z: 29.27 };
 
+const markerVagos = { x: 68.79, y: -1569.78, z: 29.58 };
+
 var playerVehicle;
+
+var playerKills = 0;
 
 var playerHasVehicle = false;
 var playerTeam;
@@ -33,7 +37,6 @@ export function playerFirstJoin(player) {
 		}, 15000);
 		return;
 	}*/
-
 	alt.emit('broadcastMessage', `{FFF000}${player.name}{FFFFFF} entrou no servidor.`);
 	utility.loadModelForPlayers(player);
 
@@ -66,9 +69,24 @@ export function checkDisconnects() {
 	});
 }
 
-export function respawnPlayer(target) {
+function addPlayerPoint(player) {
+	playerKills = playerKills + 1;
+	chat.send(player, `Você agora possui ${playerKills} kills.`)
+}
 
-	alt.emitClient(target, 'notifications:show', 'Você morreu e retornará ao spawn de sua facção.', false, 6);
+// Handle player death & point system
+	
+export function onPlayerDeath(victim, killer, weapon) {
+
+	alt.emitClient(victim, 'notifications:show', 'Você morreu e retornará ao spawn de sua facção.', false, 6);
+	alt.emitClient(null, 'notifications:showWithPicture', `${killer} te matou`, `Arma: ${weaponList[weapon]}`, 'A vingança nunca é plena, mata a alma e evenena!', 'CHAR_CALL911', 1, false, -1, 3);
+	if (victim != killer) {
+		addPlayerPoint(killer);
+	}
+}
+
+// Handle player respawn
+export function respawnPlayer(target) {
     
 	const skin = target.model;
     
@@ -83,7 +101,7 @@ export function respawnPlayer(target) {
 		}
 		else if (playerTeam = 'LSPD') {
 			target.spawn(extended.RandomPosAround(spawnLSPD, 5));
-			// target.armor = 200;
+			target.armor = 200;
 		}
 		target.health = 200;
 	}, 4000);
