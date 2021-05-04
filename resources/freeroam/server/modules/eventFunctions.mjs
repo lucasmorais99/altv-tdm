@@ -3,7 +3,6 @@ import * as extended from 'server-extended'; //https://github.com/team-stuyk-alt
 import * as chat from 'chat'; //https://github.com/team-stuyk-alt-v/altV-Chat-Extended
 import { skinList } from './skins.mjs';
 import * as utility from './utility.mjs';
-import * as NativeUI from './includes/NativeUIMenu/NativeUI.mjs';
 
 const spawnLocation = {x: 104.75, y: -1943.61, z: 20.78};
 var disconnectedPlayers = new Map();
@@ -73,10 +72,4 @@ function SpawnPlayer(player) {
 	// Setup for extended / chat
 	chat.setupPlayer(player);
 	extended.SetupExportsForPlayer(player);
-	
-	const ui = new NativeUI.Menu("NativeUI Test", "Test Subtitle", new NativeUI.Point(0, 0));
-	ui.AddItem(new NativeUI.UIMenuListItem(
-  	"Equipe",
-   	"Escolha a sua equipe",
-   	new NativeUI.ItemsCollection(["Ballas", "Vagos", "LSPD"])));
 }
