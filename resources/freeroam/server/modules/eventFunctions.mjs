@@ -80,6 +80,8 @@ export function onPlayerDeath(victim, killer, weapon) {
 
 	alt.emitClient(victim, 'notifications:show', 'Você morreu e retornará ao spawn de sua facção.', false, 6);
 	alt.emitClient(null, 'notifications:showWithPicture', `${killer} te matou`, `Arma: ${weaponList[weapon]}`, 'A vingança nunca é plena, mata a alma e evenena!', 'CHAR_CALL911', 1, false, -1, 3);
+	console.log(JSON.stringify(victim));
+	console.log(JSON.stringify(killer));
 	if (victim != killer) {
 		addPlayerPoint(killer);
 	}
