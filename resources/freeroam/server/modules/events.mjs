@@ -18,3 +18,5 @@ alt.onClient('killSelf', (player) => {
 	player.health = 0;
 });
 
+alt.onClient('setTeamSkin', eventFuncs.setTeamSkin);
+

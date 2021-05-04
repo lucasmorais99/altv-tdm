@@ -2,6 +2,7 @@ import * as alt from 'alt';
 import * as extended from 'server-extended'; //https://github.com/team-stuyk-alt-v/altV-Extended
 import * as chat from 'chat'; //https://github.com/team-stuyk-alt-v/altV-Chat-Extended
 import { skinList } from './skins.mjs';
+import { skinBallas } from './skinballas.mjs';
 import * as utility from './utility.mjs';
 
 const spawnLocation = {x: 104.75, y: -1943.61, z: 20.78};
@@ -56,6 +57,14 @@ export function respawnPlayer(target) {
 		target.spawn(randomPosition.x, randomPosition.y, randomPosition.z);
 		target.health = 200;
 	}, 4000);
+}
+
+export function setTeamSkin(player, sel) {
+	if(sel == 'Ballas'){
+		const randomBallas = Math.floor(Math.random() * skinBallas.length);
+		player.model = randomBallas;
+		utility.loadModelForPlayers(player);
+	}
 }
 
 function SpawnPlayer(player) {

@@ -1,6 +1,8 @@
 import * as alt from 'alt';
 import * as native from 'natives';
 import * as extended from 'server-extended'; //https://github.com/team-stuyk-alt-v/altV-Extended
+import * as NativeUI from './NativeUI/NativeUI';
+import * as notifications from  'notifications'
 
 // Load Animation Libraries:
 function loadAnimationLibraries() {
@@ -85,6 +87,37 @@ alt.on('update', () => {
 		extended.drawText(player.name, result[1], y, scale, 4, 255, 255, 255, 255, true, false);
 		native.drawRect(result[1], y + 0.05, pHealth, 0.01, 255, 0, 0, 100);
 	});
+});
+
+// Menu de equipes
+
+const ui = new NativeUI.Menu("Equipes", "Selecione a sua equipe:", new NativeUI.Point(50, 50));
+ui.AddItem(new NativeUI.UIMenuListItem(
+  	"Equipe",
+   	"Mocinho ou malvado, aqui você pode ser o que quiser.",
+   	new NativeUI.ItemsCollection(["Ballas", "Vagos", "LSPD"])
+));
+
+ui.ItemSelect.on(item => {
+  	if (item instanceof NativeUI.UIMenuListItem) {
+		
+		let sel = item.SelectedItem.DisplayText;
+  		
+		alt.log(item.SelectedItem.DisplayText, item.SelectedItem.Data);
+		
+		notifications.showWithPicture('Mensagem da facção', 'Seu líder', `Agora você é da facção ${sel}. Lute por eles e derrote os inimigos.`, 'CHAR_BLANK_ENTRY', 1, false, -1, 3);
+		
+		alt.emitServer('setTeamSkin', sel);
+   	}
+});
+
+alt.on('keyup', (key) => {
+    if (key === 0x71) { //F2 KEY
+        if (ui.Visible)
+            ui.Close();
+        else
+            ui.Open();
+    }
 });
 
 // Interiors
