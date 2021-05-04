@@ -3,6 +3,7 @@ import * as extended from 'server-extended'; //https://github.com/team-stuyk-alt
 import * as chat from 'chat'; //https://github.com/team-stuyk-alt-v/altV-Chat-Extended
 import { skinList } from './skins.mjs';
 import { skinBallas } from './skins.mjs';
+import { weaponList } from './weapons.mjs';
 import * as utility from './utility.mjs';
 
 const spawnLocation = {x: 104.75, y: -1943.61, z: 20.78};
@@ -53,6 +54,8 @@ export function respawnPlayer(target) {
     
 	const skin = target.model;
     
+	player.dimension = 1;
+	
 	setTimeout(() => {
 		target.spawn(randomPosition.x, randomPosition.y, randomPosition.z);
 		target.health = 200;
@@ -64,9 +67,10 @@ export function setPlayerTeam(player, sel) {
 		const randomBallas = Math.floor(Math.random() * skinBallas.length);
 		player.model = alt.hash(skinBallas[randomBallas]);
 		utility.loadModelForPlayers(player);
-		player.giveWeapon(weaponList[pistol], 48, false);
+		player.giveWeapon(weaponList['pistol'], 48, true);
 		const spawnBallas = { x: 176.43, y: -1736.61, z: 29.27}
 		player.pos = extended.RandomPosAround(spawnBallas, 5);
+		player.dimension = 0;
 	}
 }
 
@@ -74,6 +78,7 @@ function SpawnPlayer(player) {
 	const randomPosition = extended.RandomPosAround(spawnLocation, 5);
 	const randomModel = Math.floor(Math.random() * skinList.length);
 	player.model = 'mp_m_freemode_01';
+	player.dimension = 1;
     
 	// Wait to set player health.
 	setTimeout(() => {

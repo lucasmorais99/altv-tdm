@@ -308,3 +308,7 @@ export function kickFromDimension(player, arg) {
 
 	player.currentDimension.Kick(arg[0]);
 }
+
+export function myDimension(player) {
+	chat.send(player, `Sua dimensão é ${player.dimension}`);
+}

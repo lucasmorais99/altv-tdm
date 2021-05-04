@@ -4,6 +4,9 @@ import * as cmdFuncs from './commandFunctions.mjs';
 // Setar timer
 chat.registerCmd('timer', cmdFuncs.setTimer);
 
+// Checar dimensão
+chat.registerCmd('dim', cmdFuncs.myDimension);
+
 // Give weapon
 chat.registerCmd('giveweapon', cmdFuncs.giveWeapon);
 chat.registerCmd('weapon', cmdFuncs.giveWeapon);
