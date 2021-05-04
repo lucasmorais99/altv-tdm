@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\resources",
+    "\\resources\\freeroam",
+    "\\resources\\freeroam\\server",
+    "\\resources\\freeroam\\server\\modules"
+  ],
+  "SelectedNode": "\\resources\\freeroam\\server\\modules\\commandFunctions.mjs",
+  "PreviewInSolutionExplorer": false
+}
