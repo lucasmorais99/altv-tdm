@@ -447,3 +447,10 @@ export const skinList = [
 	'u_m_y_tattoo_01',
 	'u_m_y_zombie_01'
 ];
+
+export const skinBallas = [
+	'g_f_y_ballas_01',
+	'g_m_y_ballasout_01',
+	'ig_ballasog',
+	'csb_ballasog',
+];
