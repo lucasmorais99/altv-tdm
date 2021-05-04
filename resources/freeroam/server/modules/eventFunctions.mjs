@@ -8,22 +8,31 @@ import { skinLSPD } from './skins.mjs';
 import { weaponList } from './weapons.mjs';
 import * as utility from './utility.mjs';
 
+const spawnBallas = { x: 176.43, y: -1736.61, z: 29.27 };
+const spawnVagos = { x: 61.33, y: -1567, z: 29.44 };
+const spawnLSPD = { x: 359.14, y: -1582, z: 29.27 };
+
+var playerVehicle;
+
+var playerHasVehicle = false;
+var playerTeam;
+
 const spawnLocation = {x: 104.75, y: -1943.61, z: 20.78};
 var disconnectedPlayers = new Map();
 
 export function playerFirstJoin(player) {
-	// Prevent reconnections to the server to some degree.
+
+	extended.SetupExportsForPlayer(player);
+
+	/* Prevent reconnections to the server to some degree.
 	if (disconnectedPlayers.get(player.name)) {
-		extended.SetupExportsForPlayer(player);
-		player.fadeScreen(true, 5000);
-		player.freeze(true);
 		disconnectedPlayers.set(player.name, Date.now() + 120000);
 		chat.send(player, '{FF0000} You recently disconnected. Please close your game and rejoin.');
 		setTimeout(() => {
 			player.kick();
 		}, 15000);
 		return;
-	}
+	}*/
 
 	alt.emit('broadcastMessage', `{FFF000}${player.name}{FFFFFF} entrou no servidor.`);
 	utility.loadModelForPlayers(player);
@@ -38,6 +47,13 @@ export function playerDisconnect(player) {
 
 	// Disconnect the player for 25 seconds.
 	disconnectedPlayers.set(player.name, Date.now() + 120000);
+
+	if (playerHasVehicle == true) {
+		try {
+			playerVehicle.destroy();
+			playerHasVehicle = false;
+		} catch (err) { alt.log(`Erro (disconnect): ${ err }`)}
+    }
 }
 
 export function checkDisconnects() {
@@ -52,63 +68,90 @@ export function checkDisconnects() {
 
 export function respawnPlayer(target) {
 
-	chat.send(target, '{FF0000}Você morreu e retornará ao spawn em breve.');
-	
-	const randomPosition = extended.RandomPosAround(spawnLocation, 5);
+	alt.emitClient(target, 'notifications:show', 'Você morreu e retornará ao spawn de sua facção.', false, 6);
     
 	const skin = target.model;
     
-	target.dimension = 1;
+	target.dimension = 0;
 	
 	setTimeout(() => {
-		target.spawn(randomPosition.x, randomPosition.y, randomPosition.z);
+		if (playerTeam = 'Ballas') {
+			target.spawn(spawnBallas.x, spawnBallas.y, spawnBallas.z);
+		}
+		else if (playerTeam = 'Vagos') {
+			target.spawn(extended.RandomPosAround(spawnVagos, 5));
+		}
+		else if (playerTeam = 'LSPD') {
+			target.spawn(extended.RandomPosAround(spawnLSPD, 5));
+			// target.armor = 200;
+		}
 		target.health = 200;
 	}, 4000);
 }
 
+function spawnPlayerVehicle(player, arg) {
+
+	const positionNear = extended.RandomPosAround(player.pos, 1);
+
+	if (playerHasVehicle == true) {
+		try {
+			playerVehicle.destroy();
+			playerVehicle = new alt.Vehicle(arg, positionNear.x, positionNear.y, positionNear.z, 0, 0, 0);
+			playerHasVehicle = true;
+			playerVehicle.dimension = player.dimension;
+			alt.emitClient(player, 'warpIntoVehicle', playerVehicle);
+		} catch (err) { alt.log(`Erro (PHV = true): ${err}`); }
+	}
+	else if (playerHasVehicle == false) {
+		try {
+			playerVehicle = new alt.Vehicle(arg, positionNear.x, positionNear.y, positionNear.z, 0, 0, 0);
+			playerHasVehicle = true;
+			playerVehicle.dimension = player.dimension;
+			alt.emitClient(player, 'warpIntoVehicle', playerVehicle);
+		} catch (err) { alt.log(`Erro (PHV = FALSE): ${err}`); }
+	}
+}
+
 export function setPlayerTeam(player, sel) {
+	playerTeam = sel;
+
 	if (sel == 'Ballas'){
 		const randomBallas = Math.floor(Math.random() * skinBallas.length);
 		player.model = alt.hash(skinBallas[randomBallas]);
 		utility.loadModelForPlayers(player);
 		player.giveWeapon(weaponList['pistol'], 48, false);
-		const spawnBallas = { x: 176.43, y: -1736.61, z: 29.27}
 		player.pos = extended.RandomPosAround(spawnBallas, 5);
 		player.dimension = 0;
-		player.personalVehicle.destroy();
-		player.personalVehicle = new alt.Vehicle('faction', player.pos.x, player.pos.y, player.pos.z 0, 0, 0);
-		player.personalVehicle.dimension = player.dimension;
-		alt.emitClient(player, 'warpIntoVehicle', player.personalVehicle);
-		chat.send(player, `Você recebeu um veículo modelo {FFF000}Faction{FFFFFF} por ter se juntado aos ${sel}.`);
+		setTimeout(() => {
+			spawnPlayerVehicle(player, 'faction');
+			chat.send(player, `Você recebeu um veículo modelo {FFF000}Faction{FFFFFF} por ter se juntado à ${sel}.`);
+		}, 1000);
 	}
 	else if (sel == 'Vagos'){
 		const randomVagos = Math.floor(Math.random() * skinVagos.length);
 		player.model = alt.hash(skinVagos[randomVagos]);
 		utility.loadModelForPlayers(player);
 		player.giveWeapon(weaponList['pistol'], 48, false);
-		const spawnVagos = { x: 61.33, y: -1567, z: 29.44}
 		player.pos = extended.RandomPosAround(spawnVagos, 5);
 		player.dimension = 0;
-		player.personalVehicle.destroy();
-		player.personalVehicle = new alt.Vehicle('tornado', player.pos.x, player.pos.y, player.pos.z, 0, 0, 0);
-		player.personalVehicle.dimension = player.dimension;
-		alt.emitClient(player, 'warpIntoVehicle', player.personalVehicle);
-		chat.send(player, `Você recebeu um veículo modelo {FFF000}Tornado{FFFFFF} por ter se juntado aos ${sel}.`);
+		setTimeout(() => {
+			spawnPlayerVehicle(player, 'tornado');
+			chat.send(player, `Você recebeu um veículo modelo {FFF000}Tornado{FFFFFF} por ter se juntado à ${sel}.`);
+		}, 1000);
 	}
+
 	else if (sel == 'LSPD'){
 		const randomLSPD = Math.floor(Math.random() * skinLSPD.length);
 		player.model = alt.hash(skinLSPD[randomLSPD]);
 		utility.loadModelForPlayers(player);
 		player.giveWeapon(weaponList['pistolmk2'], 48, false);
 		player.giveWeapon(weaponList['pumpshotgun'], 48, false);
-		const spawnLSPD = { x: 359.14, y: -1582, z: 29.27}
 		player.pos = extended.RandomPosAround(spawnLSPD, 5);
 		player.dimension = 0;
-		player.personalVehicle.destroy();
-		player.personalVehicle = new alt.Vehicle('police3', player.pos.x, player.pos.y, player.pos.z, 0, 0, 0);
-		player.personalVehicle.dimension = player.dimension;
-		alt.emitClient(player, 'warpIntoVehicle', player.personalVehicle);
-		chat.send(player, `Você recebeu um veículo modelo {FFF000}Police Cruiser{FFFFFF} por ter se juntado à ${sel}.`);
+		setTimeout(() => {
+			spawnPlayerVehicle(player, 'police3');
+			chat.send(player, `Você recebeu um veículo modelo {FFF000}Police Cruiser{FFFFFF} por ter se juntado à ${sel}.`);
+		}, 1000);
 	}	
 }
 

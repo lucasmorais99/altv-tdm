@@ -1,5 +1,6 @@
 import * as alt from 'alt';
 import * as color from './colors.mjs';
+import * as chat from 'chat';
 
 console.log(`${color.FgYellow}Extended v0.5 is running.`);
 
@@ -89,6 +90,7 @@ export function ColshapeEmitter(pos, enterEventName, exitEventName, markerType, 
 
 // This needs to be called for each player that joins the server.
 export function SetupExportsForPlayer(player) {
+	chat.debug('setupexportforplayer funfou 1');
 	if (player === undefined) {
 		throw new Error('SetupExportsForPlayer => player is undefined.');
 	}

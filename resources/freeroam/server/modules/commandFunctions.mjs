@@ -13,8 +13,8 @@ import * as timer from 'timer';
 export function setTimer(player, arg) {
 	var timer = arg[0];
     
-	if (timer < 10)
-		return chat.send(player, '{FF0000}Escolha um tempo maior do que dez segundos.');
+	if (timer < 30)
+		return chat.send(player, '{FF0000}O tempo mínimo para o timer é de trinta segundos!');
 	
 	alt.emitClient(null, 'notifications:show', `Você criou um timer de ${timer} segundos!`, false, 134);
 	
@@ -22,9 +22,17 @@ export function setTimer(player, arg) {
 
 	function count() {
 		if (timer > 0) {
-			timer = timer-1;
+			timer = timer - 1;
+
 			alt.emitClient(null, "timerbars:removeAll");
-			alt.emitClient(null, "timerbars:create", "Teste1", "text", "", { text: `${timer} segundos` });
+
+			if (timer < 30) {
+				alt.emitClient(null, "timerbars:create", "timer", "text", "", { text: `${timer} segundos` });
+				alt.emitClient(null, "timerbars:setTextColor", "timer", 6);
+			}
+			else {
+				alt.emitClient(null, "timerbars:create", "timer", "text", "", { text: `${timer} segundos` });
+            }
 		}
 		else {
 			alt.emitClient(null, 'notifications:show', `O timer terminou!`, false, 134);

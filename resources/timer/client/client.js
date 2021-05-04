@@ -13,7 +13,7 @@ alt.everyTick(() => {
     native.hideHudComponentThisFrame(8);
     native.hideHudComponentThisFrame(9);
 
-    native.setScriptGfxAlign(82, 66);
+    native.setScriptGfxAlign(82, 100);
     native.setScriptGfxAlignParams(0.0, 0.0, Helpers.coordsAndSize.gfxAlignWidth, Helpers.coordsAndSize.gfxAlignHeight);
 
     let drawY = native.busyspinnerIsOn() ? Helpers.coordsAndSize.initialBusySpinnerY : Helpers.coordsAndSize.initialY;

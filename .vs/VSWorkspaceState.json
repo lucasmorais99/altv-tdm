@@ -6,6 +6,6 @@
     "\\resources\\freeroam\\server",
     "\\resources\\freeroam\\server\\modules"
   ],
-  "SelectedNode": "\\resources\\freeroam\\server\\modules\\commandFunctions.mjs",
+  "SelectedNode": "\\resources\\freeroam\\server\\modules\\commands.mjs",
   "PreviewInSolutionExplorer": false
 }
