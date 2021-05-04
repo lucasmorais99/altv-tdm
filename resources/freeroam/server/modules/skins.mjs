@@ -453,4 +453,12 @@ export const skinBallas = [
 	'g_m_y_ballasout_01',
 	'ig_ballasog',
 	'csb_ballasog',
+	'g_m_y_ballaeast_01',
+	'g_m_y_ballaorig_01'
+];
+
+export const skinVagos = [
+	'g_f_y_vagos_01',
+	'mp_m_g_vagfun_01',
+	'ig_vagspeak'
 ];

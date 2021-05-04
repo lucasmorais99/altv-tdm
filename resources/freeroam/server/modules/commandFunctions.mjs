@@ -64,6 +64,7 @@ export function clearWeapons(player) {
  * @param arg
  */
 export function spawnVehicle(player, arg) {
+	
 	if (!arg[0])
 		return chat.send(player, '{FF0000}Veículo inválido, tente novamente.');
 
@@ -82,6 +83,8 @@ export function spawnVehicle(player, arg) {
 		player.personalVehicle.dimension = player.dimension;
 		alt.emitClient(player, 'warpIntoVehicle', player.personalVehicle);
 		chat.send(player, `Você spawnou um {FFF000}${arg}{FFFFFF}.`);
+		player.personalVehicle.customPrimaryColor = extended.GetRandomColor();
+		player.personalVehicle.customSecondaryColor = extended.GetRandomColor();
 	} catch(err) {
 		player.personalVehicle = undefined;
 		chat.send(player, '{FF0000}Veículo inválido, tente novamente.');

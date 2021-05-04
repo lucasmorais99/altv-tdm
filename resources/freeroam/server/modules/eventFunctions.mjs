@@ -3,6 +3,7 @@ import * as extended from 'server-extended'; //https://github.com/team-stuyk-alt
 import * as chat from 'chat'; //https://github.com/team-stuyk-alt-v/altV-Chat-Extended
 import { skinList } from './skins.mjs';
 import { skinBallas } from './skins.mjs';
+import { skinVagos } from './skins.mjs';
 import { weaponList } from './weapons.mjs';
 import * as utility from './utility.mjs';
 
@@ -63,13 +64,22 @@ export function respawnPlayer(target) {
 }
 
 export function setPlayerTeam(player, sel) {
-	if(sel == 'Ballas'){
+	if (sel == 'Ballas'){
 		const randomBallas = Math.floor(Math.random() * skinBallas.length);
 		player.model = alt.hash(skinBallas[randomBallas]);
 		utility.loadModelForPlayers(player);
 		player.giveWeapon(weaponList['pistol'], 48, true);
 		const spawnBallas = { x: 176.43, y: -1736.61, z: 29.27}
 		player.pos = extended.RandomPosAround(spawnBallas, 5);
+		player.dimension = 0;
+	}
+	else if (sel == 'Vagos'){
+		const randomVagos = Math.floor(Math.random() * skinVagos.length);
+		player.model = alt.hash(skinVagos[randomVagos]);
+		utility.loadModelForPlayers(player);
+		player.giveWeapon(weaponList['pistol'], 48, true);
+		const spawnVagos = { x: 61.33, y: -1567, z: 29.44}
+		player.pos = extended.RandomPosAround(spawnVagos, 5);
 		player.dimension = 0;
 	}
 }
@@ -86,6 +96,8 @@ function SpawnPlayer(player) {
 		player.health = 200;
 	}, 1000);
     
+	alt.emitClient(null, 'notifications:showWithPicture', 'Bem-vindo ao Blaine TDM', 'Element & LucasMorais', 'Aperte F2 para selecionar a sua equipe e começar a jogar!', 'CHAR_BLANK_ENTRY', 1, false, -1, 13);
+	
 	// Setup for extended / chat
 	chat.setupPlayer(player);
 	extended.SetupExportsForPlayer(player);
