@@ -1,83 +1,26 @@
-[00:41:11] alt:V Server 2.23 (release)
-[00:41:11] Starting alt:V Server on 192.168.1.13:7788
-[00:41:11] coreclr-module: dotnet core sdk not found in C:\Program Files/dotnet/host/fxr/
-[00:41:11][Error] Failed to execute altMain function in "D:\\Blaine Life\\altv-tdm\\modules\\csharp-module.dll"
+[01:52:37] alt:V Server 2.23 (release)
+[01:52:37] Starting alt:V Server on 192.168.1.13:7788
+[01:52:37] coreclr-module: dotnet core sdk not found in C:\Program Files/dotnet/host/fxr/
+[01:52:37][Error] Failed to execute altMain function in "D:\\Blaine Life\\altv-tdm\\modules\\csharp-module.dll"
 	 The module could not be executed.
-[00:41:11] Loading resource freeroam
-[00:41:11] Loading resource server-extended
-[00:41:12] Loaded resource server-extended
-[00:41:12] Loading resource chat
-[00:41:12] Loaded resource chat
-[00:41:12] Loading resource trainer
-[00:41:12] Loaded resource trainer
-[00:41:12] Loading resource notifications
-[00:41:12] Loaded resource notifications
-[00:41:12] Loading resource timer
-[00:41:12] Loaded resource timer
-[00:41:12] Loaded resource freeroam
-[00:41:12] Required server permissions:
-[00:41:12] Optional server permissions:
-[00:41:12] Starting HTTP server on 192.168.1.13:7788
-[00:41:12] Main thread started (ThreadId: 10460)
-[00:41:12] Colshape thread started (ThreadId: 15692)
-[00:41:12] EntityStreamer thread started (ThreadId: 19032)
-[00:41:12] Network thread started (ThreadId: 19508)
-[00:41:12] Console thread started (ThreadId: 19528)
-[00:41:12] Server started
-[00:41:18] [chat:cmd] Player: /dim
-[00:41:22][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:67
-[00:41:22][Error]   		player.giveWeapon(pistol, 48, false);
-[00:41:22][Error]   ReferenceError: pistol is not defined
-    at setPlayerTeam (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:67:21)
-[00:42:13][Warning] For changes in permissions, restarting server is required for changes to apply
-[00:42:13] Stopping resource chat
-[00:42:13] Stopping resource freeroam
-[00:42:13] Stopped resource freeroam
-[00:42:13] Stopped resource chat
-[00:42:13] Loading resource chat
-[00:42:13] Loaded resource chat
-[00:42:13] Loading resource freeroam
-[00:42:14] Loaded resource freeroam
-[00:42:16][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:16
-[00:42:16][Error]   		player.fadeScreen(true, 5000);
-[00:42:16][Error]   TypeError: player.fadeScreen is not a function
-    at playerFirstJoin (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:16:10)
-[00:42:18][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:68
-[00:42:18][Error]   		player.giveWeapon(weaponList[pistol], 48, false);
-[00:42:18][Error]   ReferenceError: pistol is not defined
-    at setPlayerTeam (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:68:32)
-[00:45:17][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:68
-[00:45:17][Error]   		player.giveWeapon(weaponList[pistol], 48, false);
-[00:45:17][Error]   ReferenceError: pistol is not defined
-    at setPlayerTeam (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:68:32)
-[00:45:21] Stopping resource chat
-[00:45:21] Stopping resource freeroam
-[00:45:21] Stopped resource freeroam
-[00:45:21] Stopped resource chat
-[00:45:21] Loading resource chat
-[00:45:21] Loaded resource chat
-[00:45:21] Loading resource freeroam
-[00:45:21] Loaded resource freeroam
-[00:45:24][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:16
-[00:45:24][Error]   		player.fadeScreen(true, 5000);
-[00:45:24][Error]   TypeError: player.fadeScreen is not a function
-    at playerFirstJoin (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:16:10)
-[00:45:26][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:68
-[00:45:26][Error]   		player.giveWeapon(weaponList[pistol], 48, true);
-[00:45:26][Error]   ReferenceError: pistol is not defined
-    at setPlayerTeam (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:68:32)
-[00:45:40] Stopping resource chat
-[00:45:40] Stopping resource freeroam
-[00:45:40] Stopped resource freeroam
-[00:45:40] Stopped resource chat
-[00:45:40] Loading resource chat
-[00:45:40] Loaded resource chat
-[00:45:40] Loading resource freeroam
-[00:45:40] Loaded resource freeroam
-[00:45:42][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:16
-[00:45:42][Error]   		player.fadeScreen(true, 5000);
-[00:45:42][Error]   TypeError: player.fadeScreen is not a function
-    at playerFirstJoin (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/eventFunctions.mjs:16:10)
-[00:46:16] [chat:cmd] Player: /dim
-[00:47:01] [chat:cmd] Player: /dim
-[00:47:05] [chat:cmd] Player: /dim
+[01:52:37] Loading resource freeroam
+[01:52:37] Loading resource server-extended
+[01:52:37] Loaded resource server-extended
+[01:52:37] Loading resource chat
+[01:52:37] Loaded resource chat
+[01:52:37] Loading resource trainer
+[01:52:37] Loaded resource trainer
+[01:52:37] Loading resource notifications
+[01:52:37] Loaded resource notifications
+[01:52:37] Loading resource timer
+[01:52:37] Loaded resource timer
+[01:52:37] Loaded resource freeroam
+[01:52:37] Required server permissions:
+[01:52:37] Optional server permissions:
+[01:52:37] Starting HTTP server on 192.168.1.13:7788
+[01:52:37] Main thread started (ThreadId: 6420)
+[01:52:37] Colshape thread started (ThreadId: 17220)
+[01:52:37] EntityStreamer thread started (ThreadId: 10960)
+[01:52:37] Network thread started (ThreadId: 840)
+[01:52:37] Console thread started (ThreadId: 5392)
+[01:52:37] Server started

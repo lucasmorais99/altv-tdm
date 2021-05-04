@@ -2,7 +2,8 @@ import * as alt from 'alt';
 import * as native from 'natives';
 import * as extended from 'server-extended'; //https://github.com/team-stuyk-alt-v/altV-Extended
 import * as NativeUI from './NativeUI/NativeUI';
-import * as notifications from  'notifications'
+import * as notifications from  'notifications';
+import * as chat from 'chat';
 
 // Load Animation Libraries:
 function loadAnimationLibraries() {

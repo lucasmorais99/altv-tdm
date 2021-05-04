@@ -51,12 +51,14 @@ export function checkDisconnects() {
 }
 
 export function respawnPlayer(target) {
+
 	chat.send(target, '{FF0000}Você morreu e retornará ao spawn em breve.');
+	
 	const randomPosition = extended.RandomPosAround(spawnLocation, 5);
     
 	const skin = target.model;
     
-	player.dimension = 1;
+	target.dimension = 1;
 	
 	setTimeout(() => {
 		target.spawn(randomPosition.x, randomPosition.y, randomPosition.z);
