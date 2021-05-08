@@ -28,3 +28,94 @@
 [15:02:23] [chat:cmd] Player: /kill
 [15:13:30] [chat:cmd] Player: /pos
 [15:13:30][Warning] Event handler at chat:file:///D:/Blaine%20Life/altv-tdm/resources/chat/index.mjs:19 was too long 42ms
+[15:20:06][Warning] For changes in permissions, restarting server is required for changes to apply
+[15:20:06] Stopping resource chat
+[15:20:06] Stopping resource freeroam
+[15:20:06] Stopped resource freeroam
+[15:20:06] Stopped resource chat
+[15:20:06] Loading resource chat
+[15:20:06] Loaded resource chat
+[15:20:06] Loading resource freeroam
+[15:20:06] Loaded resource freeroam
+[15:20:10][Warning] Event handler at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/events.mjs:8 was too long 76ms
+[15:20:22] [chat:cmd] Player: /kill
+[15:20:23][Error] [V8] Exception at chat:file:///D:/Blaine%20Life/altv-tdm/resources/chat/index.mjs:110
+[15:20:23][Error]       alt.emitClient(player, 'chatmessage', null, msg);
+[15:20:23][Error]   Error: player or null expected
+    at send (file:///D:/Blaine%20Life/altv-tdm/resources/chat/index.mjs:110:9)
+[15:20:23][Warning] Event handler at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/events.mjs:15 was too long 90ms
+[15:20:36] [chat:cmd] Player: /kill
+[15:21:22] [chat:cmd] Player: /kill
+[15:31:32] Stopping resource chat
+[15:31:32] Stopping resource freeroam
+[15:31:32] Stopped resource freeroam
+[15:31:32] Stopped resource chat
+[15:31:32] Loading resource chat
+[15:31:32] Loaded resource chat
+[15:31:32] Loading resource freeroam
+[15:31:32] Loaded resource freeroam
+[15:31:45] [chat:cmd] Player: /blip
+[15:31:45][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/commandFunctions.mjs:49
+[15:31:45][Error]   	alt.createAreaBlip(player.pos.x, player.pos.y, player.pos.z, 100, 100)
+[15:31:45][Error]   TypeError: alt.createAreaBlip is not a function
+    at createAreaBlip (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/commandFunctions.mjs:49:6)
+[15:31:45][Warning] Event handler at chat:file:///D:/Blaine%20Life/altv-tdm/resources/chat/index.mjs:19 was too long 42ms
+[15:32:06] Stopping resource chat
+[15:32:06] Stopping resource freeroam
+[15:32:06] Stopped resource freeroam
+[15:32:06] Stopped resource chat
+[15:32:06] Loading resource chat
+[15:32:06] Loaded resource chat
+[15:32:06] Loading resource freeroam
+[15:32:06] Loaded resource freeroam
+[15:32:19] [chat:cmd] Player: /blip
+[15:32:19][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/commandFunctions.mjs:49
+[15:32:19][Error]   	alt.AreaBlip(player.pos.x, player.pos.y, player.pos.z, 100, 100)
+[15:32:19][Error]   TypeError: alt.AreaBlip is not a function
+    at createAreaBlip (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/commandFunctions.mjs:49:6)
+[15:34:02] Stopping resource chat
+[15:34:02] Stopping resource freeroam
+[15:34:02] Stopped resource freeroam
+[15:34:02] Stopped resource chat
+[15:34:02] Loading resource chat
+[15:34:03] Loaded resource chat
+[15:34:03] Loading resource freeroam
+[15:34:03][Error] Failed to load resource freeroam
+[15:34:13] Stopping resource chat
+[15:34:13] Stopped resource chat
+[15:34:13] Loading resource chat
+[15:34:14] Loaded resource chat
+[15:34:20][Error] No such resource freeroam is loaded
+[15:34:23] Loading resource freeroam
+[15:34:23] Loaded resource freeroam
+[15:34:25] Stopping resource chat
+[15:34:25] Stopping resource freeroam
+[15:34:25] Stopped resource freeroam
+[15:34:25] Stopped resource chat
+[15:34:25] Loading resource chat
+[15:34:25] Loaded resource chat
+[15:34:25] Loading resource freeroam
+[15:34:25] Loaded resource freeroam
+[15:34:42] [chat:cmd] Player: /blip
+[15:34:48] [chat:cmd] Player: /blip
+[15:41:06] Stopping resource chat
+[15:41:06] Stopping resource freeroam
+[15:41:06] Stopped resource freeroam
+[15:41:06] Stopped resource chat
+[15:41:06] Loading resource chat
+[15:41:06] Loaded resource chat
+[15:41:06] Loading resource freeroam
+[15:41:06] Loading resource altv-os-global-blip-manager
+[15:41:06][Error] Failed to load resource altv-os-global-blip-manager
+[15:41:06][Error] Failed to load resource freeroam : Failed to start dependency
+[15:41:06][Error] Failed to load resource freeroam
+[15:41:18] Stopping resource server-extended
+[15:41:18] Stopped resource server-extended
+[15:41:18] Stopping resource timer
+[15:41:18] Stopped resource timer
+[15:41:18] Stopping resource trainer
+[15:41:18] Stopped resource trainer
+[15:41:18] Stopping resource notifications
+[15:41:18] Stopped resource notifications
+[15:41:18] Stopping resource chat
+[15:41:18] Stopped resource chat

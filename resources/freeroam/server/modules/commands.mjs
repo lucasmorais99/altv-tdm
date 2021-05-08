@@ -4,6 +4,9 @@ import * as cmdFuncs from './commandFunctions.mjs';
 // Setar timer
 chat.registerCmd('timer', cmdFuncs.setTimer);
 
+// Gerar area marker
+chat.registerCmd('blip', cmdFuncs.createAreaBlip)
+
 // Checar dimensão
 chat.registerCmd('dim', cmdFuncs.myDimension);
 

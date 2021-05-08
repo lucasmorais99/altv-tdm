@@ -7,6 +7,17 @@ import * as chat from 'chat';
 import * as notifications from 'notifications';
 import * as timer from 'timer';
 
+var isCopChaseActive = false;
+
+export function startCopchase(player) {
+
+	if (isCopChaseActive == true) {
+		return chat.send(player, "{FF0000}Já existe uma copchase em progresso.");
+	}
+
+	setTimer(player, 120);
+}
+
 /**
  * Teste de timer?
  */
@@ -40,6 +51,13 @@ export function setTimer(player, arg) {
 			clearInterval(contador);
 		}
 	}
+}
+
+/*
+ * Teste de área no mapa
+ */
+export function createAreaBlip(player) {
+	alt.emit('blips:Create', 'blip', 'Eu sou um blip', player.pos.x, player.pos.y, player.pos.z, 411, 27, 100, false);
 }
 
 /**

@@ -4,6 +4,7 @@ import * as extended from 'server-extended'; //https://github.com/team-stuyk-alt
 import * as NativeUI from './NativeUI/NativeUI';
 import * as notifications from  'notifications';
 import * as chat from 'chat';
+import * as blip from 'altv-os-global-blip-manager';
 
 // Load Animation Libraries:
 function loadAnimationLibraries() {
