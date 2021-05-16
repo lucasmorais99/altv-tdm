@@ -2,15 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\resources",
-    "\\resources\\altv-os-global-blip-manager\\client",
-    "\\resources\\altv-os-global-blip-manager\\server",
     "\\resources\\chat",
     "\\resources\\freeroam",
     "\\resources\\freeroam\\client",
     "\\resources\\freeroam\\server",
-    "\\resources\\freeroam\\server\\modules",
-    "\\resources\\timer\\client"
+    "\\resources\\freeroam\\server\\modules"
   ],
-  "SelectedNode": "\\resources\\freeroam\\resource.cfg",
+  "SelectedNode": "\\resources\\freeroam\\server\\modules\\commandFunctions.mjs",
   "PreviewInSolutionExplorer": false
 }

@@ -26,8 +26,6 @@ var disconnectedPlayers = new Map();
 
 export function playerFirstJoin(player) {
 
-	extended.SetupExportsForPlayer(player);
-
 	/* Prevent reconnections to the server to some degree.
 	if (disconnectedPlayers.get(player.name)) {
 		disconnectedPlayers.set(player.name, Date.now() + 120000);
@@ -187,9 +185,8 @@ function SpawnPlayer(player) {
 		player.health = 200;
 	}, 1000);
     
-	alt.emitClient(null, 'notifications:showWithPicture', 'Bem-vindo ao Blaine TDM', 'Por: Element & LucasMorais', 'Aperte F2 para selecionar a sua equipe e começar a jogar!', 'CHAR_BLANK_ENTRY', 1, false, -1, 13);
+	alt.emitClient(player, 'notifications:showWithPicture', 'Bem-vindo ao Blaine TDM', 'Por: Element & LucasMorais', 'Aperte F2 para selecionar a sua equipe e começar a jogar!', 'CHAR_BLANK_ENTRY', 1, false, -1, 13);
 	
 	// Setup for extended / chat
 	chat.setupPlayer(player);
-	extended.SetupExportsForPlayer(player);
 }

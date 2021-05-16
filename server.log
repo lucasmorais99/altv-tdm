@@ -1,121 +1,178 @@
-[15:01:52] alt:V Server 2.23 (release)
-[15:01:52] Starting alt:V Server on 192.168.1.13:7788
-[15:01:52] coreclr-module: version found: 5.0.5
-[15:01:52] coreclr-module: greatest version: 5.0.5
-[15:01:52] Loading resource chat
-[15:01:52] Loaded resource chat
-[15:01:52] Loading resource freeroam
-[15:01:52] Loading resource server-extended
-[15:01:52] Loaded resource server-extended
-[15:01:52] Loading resource trainer
-[15:01:52] Loaded resource trainer
-[15:01:52] Loading resource notifications
-[15:01:52] Loaded resource notifications
-[15:01:52] Loading resource timer
-[15:01:52] Loaded resource timer
-[15:01:53] Loaded resource freeroam
-[15:01:53] Required server permissions:
-[15:01:53] Optional server permissions:
-[15:01:53] Starting HTTP server on 192.168.1.13:7788
-[15:01:53] Main thread started (ThreadId: 5444)
-[15:01:53] Colshape thread started (ThreadId: 22268)
-[15:01:53] EntityStreamer thread started (ThreadId: 20100)
-[15:01:53] Network thread started (ThreadId: 20900)
-[15:01:53] Console thread started (ThreadId: 6356)
-[15:01:53] Server started
-[15:02:05] [chat:cmd] Player: /kill
-[15:02:14] [chat:cmd] Player: /kill
-[15:02:23] [chat:cmd] Player: /kill
-[15:13:30] [chat:cmd] Player: /pos
-[15:13:30][Warning] Event handler at chat:file:///D:/Blaine%20Life/altv-tdm/resources/chat/index.mjs:19 was too long 42ms
-[15:20:06][Warning] For changes in permissions, restarting server is required for changes to apply
-[15:20:06] Stopping resource chat
-[15:20:06] Stopping resource freeroam
-[15:20:06] Stopped resource freeroam
-[15:20:06] Stopped resource chat
-[15:20:06] Loading resource chat
-[15:20:06] Loaded resource chat
-[15:20:06] Loading resource freeroam
-[15:20:06] Loaded resource freeroam
-[15:20:10][Warning] Event handler at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/events.mjs:8 was too long 76ms
-[15:20:22] [chat:cmd] Player: /kill
-[15:20:23][Error] [V8] Exception at chat:file:///D:/Blaine%20Life/altv-tdm/resources/chat/index.mjs:110
-[15:20:23][Error]       alt.emitClient(player, 'chatmessage', null, msg);
-[15:20:23][Error]   Error: player or null expected
-    at send (file:///D:/Blaine%20Life/altv-tdm/resources/chat/index.mjs:110:9)
-[15:20:23][Warning] Event handler at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/events.mjs:15 was too long 90ms
-[15:20:36] [chat:cmd] Player: /kill
-[15:21:22] [chat:cmd] Player: /kill
-[15:31:32] Stopping resource chat
-[15:31:32] Stopping resource freeroam
-[15:31:32] Stopped resource freeroam
-[15:31:32] Stopped resource chat
-[15:31:32] Loading resource chat
-[15:31:32] Loaded resource chat
-[15:31:32] Loading resource freeroam
-[15:31:32] Loaded resource freeroam
-[15:31:45] [chat:cmd] Player: /blip
-[15:31:45][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/commandFunctions.mjs:49
-[15:31:45][Error]   	alt.createAreaBlip(player.pos.x, player.pos.y, player.pos.z, 100, 100)
-[15:31:45][Error]   TypeError: alt.createAreaBlip is not a function
-    at createAreaBlip (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/commandFunctions.mjs:49:6)
-[15:31:45][Warning] Event handler at chat:file:///D:/Blaine%20Life/altv-tdm/resources/chat/index.mjs:19 was too long 42ms
-[15:32:06] Stopping resource chat
-[15:32:06] Stopping resource freeroam
-[15:32:06] Stopped resource freeroam
-[15:32:06] Stopped resource chat
-[15:32:06] Loading resource chat
-[15:32:06] Loaded resource chat
-[15:32:06] Loading resource freeroam
-[15:32:06] Loaded resource freeroam
-[15:32:19] [chat:cmd] Player: /blip
-[15:32:19][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/commandFunctions.mjs:49
-[15:32:19][Error]   	alt.AreaBlip(player.pos.x, player.pos.y, player.pos.z, 100, 100)
-[15:32:19][Error]   TypeError: alt.AreaBlip is not a function
-    at createAreaBlip (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/commandFunctions.mjs:49:6)
-[15:34:02] Stopping resource chat
-[15:34:02] Stopping resource freeroam
-[15:34:02] Stopped resource freeroam
-[15:34:02] Stopped resource chat
-[15:34:02] Loading resource chat
-[15:34:03] Loaded resource chat
-[15:34:03] Loading resource freeroam
-[15:34:03][Error] Failed to load resource freeroam
-[15:34:13] Stopping resource chat
-[15:34:13] Stopped resource chat
-[15:34:13] Loading resource chat
-[15:34:14] Loaded resource chat
-[15:34:20][Error] No such resource freeroam is loaded
-[15:34:23] Loading resource freeroam
-[15:34:23] Loaded resource freeroam
-[15:34:25] Stopping resource chat
-[15:34:25] Stopping resource freeroam
-[15:34:25] Stopped resource freeroam
-[15:34:25] Stopped resource chat
-[15:34:25] Loading resource chat
-[15:34:25] Loaded resource chat
-[15:34:25] Loading resource freeroam
-[15:34:25] Loaded resource freeroam
-[15:34:42] [chat:cmd] Player: /blip
-[15:34:48] [chat:cmd] Player: /blip
-[15:41:06] Stopping resource chat
-[15:41:06] Stopping resource freeroam
-[15:41:06] Stopped resource freeroam
-[15:41:06] Stopped resource chat
-[15:41:06] Loading resource chat
-[15:41:06] Loaded resource chat
-[15:41:06] Loading resource freeroam
-[15:41:06] Loading resource altv-os-global-blip-manager
-[15:41:06][Error] Failed to load resource altv-os-global-blip-manager
-[15:41:06][Error] Failed to load resource freeroam : Failed to start dependency
-[15:41:06][Error] Failed to load resource freeroam
-[15:41:18] Stopping resource server-extended
-[15:41:18] Stopped resource server-extended
-[15:41:18] Stopping resource timer
-[15:41:18] Stopped resource timer
-[15:41:18] Stopping resource trainer
-[15:41:18] Stopped resource trainer
-[15:41:18] Stopping resource notifications
-[15:41:18] Stopped resource notifications
-[15:41:18] Stopping resource chat
-[15:41:18] Stopped resource chat
+[17:28:41] alt:V Server 2.23 (release)
+[17:28:41] Starting alt:V Server on 192.168.1.13:7788
+[17:28:42] coreclr-module: version found: 3.1.15
+[17:28:42] coreclr-module: version found: 5.0.5
+[17:28:42] coreclr-module: version found: 5.0.6
+[17:28:42] coreclr-module: greatest version: 5.0.6
+[17:28:42] Loading resource chat
+[17:28:43] Loaded resource chat
+[17:28:43] Loading resource freeroam
+[17:28:43] Loading resource server-extended
+[17:28:43] Loaded resource server-extended
+[17:28:43] Loading resource trainer
+[17:28:43] Loaded resource trainer
+[17:28:43] Loading resource notifications
+[17:28:43] Loaded resource notifications
+[17:28:43] Loading resource timer
+[17:28:44] Loaded resource timer
+[17:28:44] Loaded resource freeroam
+[17:28:44] Required server permissions:
+[17:28:44] Optional server permissions:
+[17:28:44] Starting HTTP server on 192.168.1.13:7788
+[17:28:44] Main thread started (ThreadId: 1724)
+[17:28:44] Colshape thread started (ThreadId: 18172)
+[17:28:44] EntityStreamer thread started (ThreadId: 19376)
+[17:28:44] Network thread started (ThreadId: 27228)
+[17:28:44] Console thread started (ThreadId: 19888)
+[17:28:44] Server started
+[17:28:51][Warning] resourceManager.Update() took: 55 ms
+[17:30:26][Warning] Event handler at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/events.mjs:5 was too long 96ms
+[17:31:47] [chat:cmd] Player: /veh police3
+[17:31:47][Warning] Event handler at chat:file:///D:/Blaine%20Life/altv-tdm/resources/chat/index.mjs:19 was too long 37ms
+[17:31:50] [chat:cmd] Player: /veh police3
+[17:32:16] [chat:cmd] Player: /veh police3
+[17:32:24] [chat:cmd] Player: /v police3
+[17:32:30] [chat:cmd] Player: /veh police3
+[17:32:38] [chat:cmd] Player: /veh
+[17:32:43] [chat:cmd] Player: /veh
+[17:32:46] [chat:cmd] Player: /veh 3
+[17:32:46][Error] Failed to create vehicle: 2751514611 is not a proper model hash
+[17:32:46][Warning] Event handler at chat:file:///D:/Blaine%20Life/altv-tdm/resources/chat/index.mjs:19 was too long 44ms
+[17:33:22][Warning] Event handler at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/events.mjs:15 was too long 12ms
+[17:33:42] [chat:cmd] Player: /v
+[17:33:42][Warning] Event handler at chat:file:///D:/Blaine%20Life/altv-tdm/resources/chat/index.mjs:19 was too long 29ms
+[17:33:43] [chat:cmd] Player: /v
+[17:33:58][Warning] Event handler at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/events.mjs:15 was too long 40ms
+[17:35:17] [chat:cmd] Player: /veh police3
+[17:35:20] [chat:cmd] Player: /m
+[17:36:17] [==> CHAT] Player: lmk2
+[17:37:10] [chat:cmd] Renan_Lima: /roupas
+[17:37:13] [==> CHAT] Renan_Lima: skin
+[17:37:15] [chat:cmd] Renan_Lima: /skin
+[17:38:06] [==> CHAT] Player: teste
+[17:39:08] [chat:cmd] Player: /skin s_m_y_cop_01
+[17:40:33] [chat:cmd] Renan_Lima: /give
+[17:40:35] [chat:cmd] Renan_Lima: /giveweapon
+[17:40:35][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/commandFunctions.mjs:69
+[17:40:35][Error]   	const weaponName = arg[0].toLowerCase();
+[17:40:35][Error]   TypeError: Cannot read property 'toLowerCase' of undefined
+    at giveWeapon (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/commandFunctions.mjs:69:28)
+[17:40:35][Warning] Event handler at chat:file:///D:/Blaine%20Life/altv-tdm/resources/chat/index.mjs:19 was too long 48ms
+[17:40:39] [chat:cmd] Renan_Lima: /giveweapon deser
+[17:40:44] [chat:cmd] Renan_Lima: /giveweapon 2
+[17:40:49] [chat:cmd] Renan_Lima: /giveweapon pistola
+[17:40:54] [chat:cmd] Renan_Lima: /giveweapos
+[17:40:58] [chat:cmd] Renan_Lima: /giveweapons
+[17:41:29] [==> CHAT] Renan_Lima: eh noix
+[17:41:32] [==> CHAT] Renan_Lima: dirige direito hein
+[17:41:52] [==> CHAT] Renan_Lima: o coxinha do exercito brasileiro
+[17:41:52] [==> CHAT] Renan_Lima: ali
+[17:42:18] [chat:cmd] Renan_Lima: /veh police 3
+[17:42:23] [chat:cmd] Player: /veh 3
+[17:42:23][Error] Failed to create vehicle: 2751514611 is not a proper model hash
+[17:42:28] [chat:cmd] Renan_Lima: /veh police 3
+[17:42:32] [chat:cmd] Player: /veh police 3
+[17:42:47] [chat:cmd] Renan_Lima: /veh police 2
+[17:44:53] [chat:cmd] Renan_Lima: /veh police 2
+[17:44:56] [chat:cmd] Renan_Lima: /veh police 2
+[17:47:58] [chat:cmd] Renan_Lima: /veh police 1
+[17:48:01] [chat:cmd] Renan_Lima: /veh police
+[17:48:07] [chat:cmd] Renan_Lima: /veh bravura
+[17:48:07][Error] Failed to create vehicle: 3460261380 is not a proper model hash
+[17:48:13] [chat:cmd] Renan_Lima: /veh bravo
+[17:48:13][Error] Failed to create vehicle: 1294429403 is not a proper model hash
+[17:48:20] [chat:cmd] Renan_Lima: /veh buffalo
+[17:48:25] [chat:cmd] Renan_Lima: /veh buffalo
+[17:48:30] [chat:cmd] Renan_Lima: /veh buffalo police
+[17:48:43] [chat:cmd] Renan_Lima: /veh police 3
+[17:49:03] [chat:cmd] Renan_Lima: /veh police
+[17:49:05] [chat:cmd] Renan_Lima: /veh police
+[17:49:08] [chat:cmd] Renan_Lima: /veh police
+[17:49:12] [chat:cmd] Renan_Lima: /veh police
+[17:49:20] [chat:cmd] Renan_Lima: /veh police
+[17:49:24] [chat:cmd] Renan_Lima: /veh police 4
+[17:49:27] [chat:cmd] Renan_Lima: /veh police4
+[17:49:29] [chat:cmd] Renan_Lima: /veh police3
+[17:49:33] [==> CHAT] Renan_Lima: 2
+[17:49:35] [chat:cmd] Renan_Lima: /veh police2
+[17:49:39] [chat:cmd] Renan_Lima: /veh police2
+[17:53:43] [chat:cmd] Renan_Lima: /veh police1
+[17:53:43][Error] Failed to create vehicle: 1423269021 is not a proper model hash
+[17:53:47] [chat:cmd] Renan_Lima: /veh police4
+[17:53:51] [chat:cmd] Renan_Lima: /veh police5
+[17:53:51][Error] Failed to create vehicle: 2620582743 is not a proper model hash
+[17:53:52] [chat:cmd] Renan_Lima: /veh police5
+[17:53:52][Error] Failed to create vehicle: 2620582743 is not a proper model hash
+[17:53:53] [chat:cmd] Renan_Lima: /veh police6
+[17:53:53][Error] Failed to create vehicle: 3003095280 is not a proper model hash
+[17:53:56] [chat:cmd] Renan_Lima: /veh police4
+[17:53:57] [chat:cmd] Renan_Lima: /veh police3
+[17:54:00] [chat:cmd] Renan_Lima: /veh police4
+[17:54:02] [chat:cmd] Renan_Lima: /veh police4
+[17:54:19] [chat:cmd] Renan_Lima: /veh police4
+[17:54:43] [chat:cmd] Renan_Lima: /carcolor
+[17:54:47] [chat:cmd] Renan_Lima: /color
+[17:54:48] [chat:cmd] Renan_Lima: /car
+[17:57:30] [chat:cmd] Renan_Lima: /veh police 1
+[17:57:33] [chat:cmd] Renan_Lima: /veh police 2
+[17:57:36] [chat:cmd] Renan_Lima: /veh police1
+[17:57:36][Error] Failed to create vehicle: 1423269021 is not a proper model hash
+[17:57:42] [chat:cmd] Renan_Lima: /veh police1
+[17:57:42][Error] Failed to create vehicle: 1423269021 is not a proper model hash
+[17:57:45] [chat:cmd] Renan_Lima: /veh police2
+[17:57:48] [chat:cmd] Renan_Lima: /veh police2
+[18:05:48] [chat:cmd] Player: /veh police 3
+[18:08:10] [chat:cmd] Renan_Lima: /veh police 3
+[18:08:13] [chat:cmd] Renan_Lima: /veh police3
+[18:08:13] [chat:cmd] Player: /veh police 2
+[18:08:19] [chat:cmd] Renan_Lima: /veh police3
+[18:08:21] [chat:cmd] Player: /veh police3
+[18:14:10] [chat:cmd] Player: /veh police3
+[18:17:41] [==> CHAT] Renan_Lima: HEALTH
+[18:17:46] [chat:cmd] Renan_Lima: /health
+[18:17:46][Warning] Event handler at chat:file:///D:/Blaine%20Life/altv-tdm/resources/chat/index.mjs:19 was too long 6ms
+[18:18:30] [chat:cmd] Player: /vehpolice 3
+[18:18:45] [chat:cmd] Player: /skin
+[18:18:55] [==> CHAT] Player: s_m_y_cop_01
+[18:19:02] [chat:cmd] Player: /s_m_Y_cop_01
+[18:19:18] [chat:cmd] Player: /s_m_Y_cop_01
+[18:19:27] [chat:cmd] Player: /veh police3
+[18:19:30] [chat:cmd] Player: /s _m_Y_cop_01
+[18:19:31] [chat:cmd] Renan_Lima: /veh police4
+[18:19:35] [chat:cmd] Renan_Lima: /veh police2
+[18:19:38] [chat:cmd] Player: /s_m_y_cop_01
+[18:19:47] [chat:cmd] Renan_Lima: /veh police2
+[18:20:36] [chat:cmd] Player: /skin
+[18:20:44] [chat:cmd] Player: /skin s_m_y_cop_01
+[18:21:04] [chat:cmd] Renan_Lima: /m
+[18:21:22] [chat:cmd] Player: /veh police3
+[18:21:26] [chat:cmd] Player: /veh police3
+[18:21:48] [chat:cmd] Player: /veh rebla
+[18:22:09][Error] Failed to create vehicle: 987444055 is not a proper model hash
+[18:22:09][Error] Error: Failed to create Vehicle
+[18:22:09][Warning] Event handler at trainer:file:///D:/Blaine%20Life/altv-tdm/resources/trainer/server.js:1 was too long 47ms
+[18:32:52] [==> CHAT] Renan_Lima: fix
+[18:32:55] [chat:cmd] Renan_Lima: /fix
+[18:33:44] [==> CHAT] Renan_Lima: descapotar
+[18:37:51] [chat:cmd] Player: /r LSPD to FIRE, capotei!
+[18:37:57] [==> CHAT] Player: LSPD to FIRE, capotei!
+[18:38:05] [chat:cmd] Player: /veh police3
+[18:42:58][Warning] resourceManager.Update() took: 251 ms
+[18:45:42] [==> CHAT] Renan_Lima: sos tem um adm spawnando poste em cima do meu carro
+[18:52:51][Warning] resourceManager.Update() took: 189 ms
+[18:53:44] [chat:cmd] Player: /veh polmav
+[18:53:44][Warning] Event handler at chat:file:///D:/Blaine%20Life/altv-tdm/resources/chat/index.mjs:19 was too long 29ms
+[18:58:34] [chat:cmd] Player: /veh burrito
+[19:05:11] [chat:cmd] Player: /q
+[19:05:32] Stopping resource chat
+[19:05:32] Stopping resource freeroam
+[19:05:32] Stopped resource freeroam
+[19:05:32] Stopped resource chat
+[19:05:32] Stopping resource server-extended
+[19:05:32] Stopped resource server-extended
+[19:05:32] Stopping resource timer
+[19:05:32] Stopped resource timer
+[19:05:32] Stopping resource trainer
+[19:05:32] Stopped resource trainer
+[19:05:32] Stopping resource notifications
+[19:05:32] Stopped resource notifications
