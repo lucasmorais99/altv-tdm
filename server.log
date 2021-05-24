@@ -1,178 +1,130 @@
-[17:28:41] alt:V Server 2.23 (release)
-[17:28:41] Starting alt:V Server on 192.168.1.13:7788
-[17:28:42] coreclr-module: version found: 3.1.15
-[17:28:42] coreclr-module: version found: 5.0.5
-[17:28:42] coreclr-module: version found: 5.0.6
-[17:28:42] coreclr-module: greatest version: 5.0.6
-[17:28:42] Loading resource chat
-[17:28:43] Loaded resource chat
-[17:28:43] Loading resource freeroam
-[17:28:43] Loading resource server-extended
-[17:28:43] Loaded resource server-extended
-[17:28:43] Loading resource trainer
-[17:28:43] Loaded resource trainer
-[17:28:43] Loading resource notifications
-[17:28:43] Loaded resource notifications
-[17:28:43] Loading resource timer
-[17:28:44] Loaded resource timer
-[17:28:44] Loaded resource freeroam
-[17:28:44] Required server permissions:
-[17:28:44] Optional server permissions:
-[17:28:44] Starting HTTP server on 192.168.1.13:7788
-[17:28:44] Main thread started (ThreadId: 1724)
-[17:28:44] Colshape thread started (ThreadId: 18172)
-[17:28:44] EntityStreamer thread started (ThreadId: 19376)
-[17:28:44] Network thread started (ThreadId: 27228)
-[17:28:44] Console thread started (ThreadId: 19888)
-[17:28:44] Server started
-[17:28:51][Warning] resourceManager.Update() took: 55 ms
-[17:30:26][Warning] Event handler at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/events.mjs:5 was too long 96ms
-[17:31:47] [chat:cmd] Player: /veh police3
-[17:31:47][Warning] Event handler at chat:file:///D:/Blaine%20Life/altv-tdm/resources/chat/index.mjs:19 was too long 37ms
-[17:31:50] [chat:cmd] Player: /veh police3
-[17:32:16] [chat:cmd] Player: /veh police3
-[17:32:24] [chat:cmd] Player: /v police3
-[17:32:30] [chat:cmd] Player: /veh police3
-[17:32:38] [chat:cmd] Player: /veh
-[17:32:43] [chat:cmd] Player: /veh
-[17:32:46] [chat:cmd] Player: /veh 3
-[17:32:46][Error] Failed to create vehicle: 2751514611 is not a proper model hash
-[17:32:46][Warning] Event handler at chat:file:///D:/Blaine%20Life/altv-tdm/resources/chat/index.mjs:19 was too long 44ms
-[17:33:22][Warning] Event handler at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/events.mjs:15 was too long 12ms
-[17:33:42] [chat:cmd] Player: /v
-[17:33:42][Warning] Event handler at chat:file:///D:/Blaine%20Life/altv-tdm/resources/chat/index.mjs:19 was too long 29ms
-[17:33:43] [chat:cmd] Player: /v
-[17:33:58][Warning] Event handler at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/events.mjs:15 was too long 40ms
-[17:35:17] [chat:cmd] Player: /veh police3
-[17:35:20] [chat:cmd] Player: /m
-[17:36:17] [==> CHAT] Player: lmk2
-[17:37:10] [chat:cmd] Renan_Lima: /roupas
-[17:37:13] [==> CHAT] Renan_Lima: skin
-[17:37:15] [chat:cmd] Renan_Lima: /skin
-[17:38:06] [==> CHAT] Player: teste
-[17:39:08] [chat:cmd] Player: /skin s_m_y_cop_01
-[17:40:33] [chat:cmd] Renan_Lima: /give
-[17:40:35] [chat:cmd] Renan_Lima: /giveweapon
-[17:40:35][Error] [V8] Exception at freeroam:file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/commandFunctions.mjs:69
-[17:40:35][Error]   	const weaponName = arg[0].toLowerCase();
-[17:40:35][Error]   TypeError: Cannot read property 'toLowerCase' of undefined
-    at giveWeapon (file:///D:/Blaine%20Life/altv-tdm/resources/freeroam/server/modules/commandFunctions.mjs:69:28)
-[17:40:35][Warning] Event handler at chat:file:///D:/Blaine%20Life/altv-tdm/resources/chat/index.mjs:19 was too long 48ms
-[17:40:39] [chat:cmd] Renan_Lima: /giveweapon deser
-[17:40:44] [chat:cmd] Renan_Lima: /giveweapon 2
-[17:40:49] [chat:cmd] Renan_Lima: /giveweapon pistola
-[17:40:54] [chat:cmd] Renan_Lima: /giveweapos
-[17:40:58] [chat:cmd] Renan_Lima: /giveweapons
-[17:41:29] [==> CHAT] Renan_Lima: eh noix
-[17:41:32] [==> CHAT] Renan_Lima: dirige direito hein
-[17:41:52] [==> CHAT] Renan_Lima: o coxinha do exercito brasileiro
-[17:41:52] [==> CHAT] Renan_Lima: ali
-[17:42:18] [chat:cmd] Renan_Lima: /veh police 3
-[17:42:23] [chat:cmd] Player: /veh 3
-[17:42:23][Error] Failed to create vehicle: 2751514611 is not a proper model hash
-[17:42:28] [chat:cmd] Renan_Lima: /veh police 3
-[17:42:32] [chat:cmd] Player: /veh police 3
-[17:42:47] [chat:cmd] Renan_Lima: /veh police 2
-[17:44:53] [chat:cmd] Renan_Lima: /veh police 2
-[17:44:56] [chat:cmd] Renan_Lima: /veh police 2
-[17:47:58] [chat:cmd] Renan_Lima: /veh police 1
-[17:48:01] [chat:cmd] Renan_Lima: /veh police
-[17:48:07] [chat:cmd] Renan_Lima: /veh bravura
-[17:48:07][Error] Failed to create vehicle: 3460261380 is not a proper model hash
-[17:48:13] [chat:cmd] Renan_Lima: /veh bravo
-[17:48:13][Error] Failed to create vehicle: 1294429403 is not a proper model hash
-[17:48:20] [chat:cmd] Renan_Lima: /veh buffalo
-[17:48:25] [chat:cmd] Renan_Lima: /veh buffalo
-[17:48:30] [chat:cmd] Renan_Lima: /veh buffalo police
-[17:48:43] [chat:cmd] Renan_Lima: /veh police 3
-[17:49:03] [chat:cmd] Renan_Lima: /veh police
-[17:49:05] [chat:cmd] Renan_Lima: /veh police
-[17:49:08] [chat:cmd] Renan_Lima: /veh police
-[17:49:12] [chat:cmd] Renan_Lima: /veh police
-[17:49:20] [chat:cmd] Renan_Lima: /veh police
-[17:49:24] [chat:cmd] Renan_Lima: /veh police 4
-[17:49:27] [chat:cmd] Renan_Lima: /veh police4
-[17:49:29] [chat:cmd] Renan_Lima: /veh police3
-[17:49:33] [==> CHAT] Renan_Lima: 2
-[17:49:35] [chat:cmd] Renan_Lima: /veh police2
-[17:49:39] [chat:cmd] Renan_Lima: /veh police2
-[17:53:43] [chat:cmd] Renan_Lima: /veh police1
-[17:53:43][Error] Failed to create vehicle: 1423269021 is not a proper model hash
-[17:53:47] [chat:cmd] Renan_Lima: /veh police4
-[17:53:51] [chat:cmd] Renan_Lima: /veh police5
-[17:53:51][Error] Failed to create vehicle: 2620582743 is not a proper model hash
-[17:53:52] [chat:cmd] Renan_Lima: /veh police5
-[17:53:52][Error] Failed to create vehicle: 2620582743 is not a proper model hash
-[17:53:53] [chat:cmd] Renan_Lima: /veh police6
-[17:53:53][Error] Failed to create vehicle: 3003095280 is not a proper model hash
-[17:53:56] [chat:cmd] Renan_Lima: /veh police4
-[17:53:57] [chat:cmd] Renan_Lima: /veh police3
-[17:54:00] [chat:cmd] Renan_Lima: /veh police4
-[17:54:02] [chat:cmd] Renan_Lima: /veh police4
-[17:54:19] [chat:cmd] Renan_Lima: /veh police4
-[17:54:43] [chat:cmd] Renan_Lima: /carcolor
-[17:54:47] [chat:cmd] Renan_Lima: /color
-[17:54:48] [chat:cmd] Renan_Lima: /car
-[17:57:30] [chat:cmd] Renan_Lima: /veh police 1
-[17:57:33] [chat:cmd] Renan_Lima: /veh police 2
-[17:57:36] [chat:cmd] Renan_Lima: /veh police1
-[17:57:36][Error] Failed to create vehicle: 1423269021 is not a proper model hash
-[17:57:42] [chat:cmd] Renan_Lima: /veh police1
-[17:57:42][Error] Failed to create vehicle: 1423269021 is not a proper model hash
-[17:57:45] [chat:cmd] Renan_Lima: /veh police2
-[17:57:48] [chat:cmd] Renan_Lima: /veh police2
-[18:05:48] [chat:cmd] Player: /veh police 3
-[18:08:10] [chat:cmd] Renan_Lima: /veh police 3
-[18:08:13] [chat:cmd] Renan_Lima: /veh police3
-[18:08:13] [chat:cmd] Player: /veh police 2
-[18:08:19] [chat:cmd] Renan_Lima: /veh police3
-[18:08:21] [chat:cmd] Player: /veh police3
-[18:14:10] [chat:cmd] Player: /veh police3
-[18:17:41] [==> CHAT] Renan_Lima: HEALTH
-[18:17:46] [chat:cmd] Renan_Lima: /health
-[18:17:46][Warning] Event handler at chat:file:///D:/Blaine%20Life/altv-tdm/resources/chat/index.mjs:19 was too long 6ms
-[18:18:30] [chat:cmd] Player: /vehpolice 3
-[18:18:45] [chat:cmd] Player: /skin
-[18:18:55] [==> CHAT] Player: s_m_y_cop_01
-[18:19:02] [chat:cmd] Player: /s_m_Y_cop_01
-[18:19:18] [chat:cmd] Player: /s_m_Y_cop_01
-[18:19:27] [chat:cmd] Player: /veh police3
-[18:19:30] [chat:cmd] Player: /s _m_Y_cop_01
-[18:19:31] [chat:cmd] Renan_Lima: /veh police4
-[18:19:35] [chat:cmd] Renan_Lima: /veh police2
-[18:19:38] [chat:cmd] Player: /s_m_y_cop_01
-[18:19:47] [chat:cmd] Renan_Lima: /veh police2
-[18:20:36] [chat:cmd] Player: /skin
-[18:20:44] [chat:cmd] Player: /skin s_m_y_cop_01
-[18:21:04] [chat:cmd] Renan_Lima: /m
-[18:21:22] [chat:cmd] Player: /veh police3
-[18:21:26] [chat:cmd] Player: /veh police3
-[18:21:48] [chat:cmd] Player: /veh rebla
-[18:22:09][Error] Failed to create vehicle: 987444055 is not a proper model hash
-[18:22:09][Error] Error: Failed to create Vehicle
-[18:22:09][Warning] Event handler at trainer:file:///D:/Blaine%20Life/altv-tdm/resources/trainer/server.js:1 was too long 47ms
-[18:32:52] [==> CHAT] Renan_Lima: fix
-[18:32:55] [chat:cmd] Renan_Lima: /fix
-[18:33:44] [==> CHAT] Renan_Lima: descapotar
-[18:37:51] [chat:cmd] Player: /r LSPD to FIRE, capotei!
-[18:37:57] [==> CHAT] Player: LSPD to FIRE, capotei!
-[18:38:05] [chat:cmd] Player: /veh police3
-[18:42:58][Warning] resourceManager.Update() took: 251 ms
-[18:45:42] [==> CHAT] Renan_Lima: sos tem um adm spawnando poste em cima do meu carro
-[18:52:51][Warning] resourceManager.Update() took: 189 ms
-[18:53:44] [chat:cmd] Player: /veh polmav
-[18:53:44][Warning] Event handler at chat:file:///D:/Blaine%20Life/altv-tdm/resources/chat/index.mjs:19 was too long 29ms
-[18:58:34] [chat:cmd] Player: /veh burrito
-[19:05:11] [chat:cmd] Player: /q
-[19:05:32] Stopping resource chat
-[19:05:32] Stopping resource freeroam
-[19:05:32] Stopped resource freeroam
-[19:05:32] Stopped resource chat
-[19:05:32] Stopping resource server-extended
-[19:05:32] Stopped resource server-extended
-[19:05:32] Stopping resource timer
-[19:05:32] Stopped resource timer
-[19:05:32] Stopping resource trainer
-[19:05:32] Stopped resource trainer
-[19:05:32] Stopping resource notifications
-[19:05:32] Stopped resource notifications
+[00:57:13] alt:V Server 2.23 (release)
+[00:57:13] Starting alt:V Server on 192.168.1.13:7788
+[00:57:13] coreclr-module: version found: 3.1.15
+[00:57:13] coreclr-module: version found: 5.0.5
+[00:57:13] coreclr-module: version found: 5.0.6
+[00:57:13] coreclr-module: greatest version: 5.0.6
+[00:57:13] Loading resource tdm
+[00:57:13] Loading resource chat
+[00:57:13] Loaded resource chat
+[00:57:13] Loaded resource tdm
+[00:57:13] Required server permissions:
+[00:57:13] Optional server permissions:
+[00:57:13] Starting HTTP server on 192.168.1.13:7788
+[00:57:13] Main thread started (ThreadId: 17984)
+[00:57:13] Colshape thread started (ThreadId: 17072)
+[00:57:13] EntityStreamer thread started (ThreadId: 23500)
+[00:57:13] Network thread started (ThreadId: 3596)
+[00:57:13] Console thread started (ThreadId: 16988)
+[00:57:13] Server started
+[00:57:45] [chat:cmd] Mago1337: /veh t20
+[00:57:45][Warning] Event handler at chat:file:///D:/Blaine%20Life/altv-tdm/resources/chat/index.mjs:19 was too long 21ms
+[00:58:50] [chat:cmd] Mago1337: /veh police
+[00:58:52] [chat:cmd] Mago1337: /veh police 0 0
+[00:59:45][Warning] For changes in permissions, restarting server is required for changes to apply
+[00:59:45] Stopping resource tdm
+[00:59:45] Stopped resource tdm
+[00:59:45] Loading resource tdm
+[00:59:45][Error] Failed to register command /timer, already registered
+[00:59:45][Error] Failed to register command /blip, already registered
+[00:59:45][Error] Failed to register command /dim, already registered
+[00:59:45][Error] Failed to register command /giveweapon, already registered
+[00:59:45][Error] Failed to register command /weapon, already registered
+[00:59:45][Error] Failed to register command /wep, already registered
+[00:59:45][Error] Failed to register command /clearweapons, already registered
+[00:59:45][Error] Failed to register command /clearweapon, already registered
+[00:59:45][Error] Failed to register command /clearwep, already registered
+[00:59:45][Error] Failed to register command /veh, already registered
+[00:59:45][Error] Failed to register command /vehicle, already registered
+[00:59:45][Error] Failed to register command /vcolor1, already registered
+[00:59:45][Error] Failed to register command /vcolor2, already registered
+[00:59:45][Error] Failed to register command /position, already registered
+[00:59:45][Error] Failed to register command /pos, already registered
+[00:59:45][Error] Failed to register command /skin, already registered
+[00:59:45][Error] Failed to register command /tpto, already registered
+[00:59:45][Error] Failed to register command /tp, already registered
+[00:59:45][Error] Failed to register command /kill, already registered
+[00:59:45][Error] Failed to register command /dimension, already registered
+[00:59:45][Error] Failed to register command /setdimension, already registered
+[00:59:45][Error] Failed to register command /invitedimension, already registered
+[00:59:45][Error] Failed to register command /invitedim, already registered
+[00:59:45][Error] Failed to register command /joindimension, already registered
+[00:59:45][Error] Failed to register command /joindim, already registered
+[00:59:45][Error] Failed to register command /kickdim, already registered
+[00:59:45][Error] Failed to register command /kickdimension, already registered
+[00:59:45] Loaded resource tdm
+[01:00:17] Stopping resource tdm
+[01:00:17] Stopped resource tdm
+[01:00:17] Loading resource tdm
+[01:00:18][Error] Failed to register command /timer, already registered
+[01:00:18][Error] Failed to register command /blip, already registered
+[01:00:18][Error] Failed to register command /dim, already registered
+[01:00:18][Error] Failed to register command /giveweapon, already registered
+[01:00:18][Error] Failed to register command /weapon, already registered
+[01:00:18][Error] Failed to register command /wep, already registered
+[01:00:18][Error] Failed to register command /clearweapons, already registered
+[01:00:18][Error] Failed to register command /clearweapon, already registered
+[01:00:18][Error] Failed to register command /clearwep, already registered
+[01:00:18][Error] Failed to register command /veh, already registered
+[01:00:18][Error] Failed to register command /vehicle, already registered
+[01:00:18][Error] Failed to register command /vcolor1, already registered
+[01:00:18][Error] Failed to register command /vcolor2, already registered
+[01:00:18][Error] Failed to register command /position, already registered
+[01:00:18][Error] Failed to register command /pos, already registered
+[01:00:18][Error] Failed to register command /skin, already registered
+[01:00:18][Error] Failed to register command /tpto, already registered
+[01:00:18][Error] Failed to register command /tp, already registered
+[01:00:18][Error] Failed to register command /kill, already registered
+[01:00:18][Error] Failed to register command /dimension, already registered
+[01:00:18][Error] Failed to register command /setdimension, already registered
+[01:00:18][Error] Failed to register command /invitedimension, already registered
+[01:00:18][Error] Failed to register command /invitedim, already registered
+[01:00:18][Error] Failed to register command /joindimension, already registered
+[01:00:18][Error] Failed to register command /joindim, already registered
+[01:00:18][Error] Failed to register command /kickdim, already registered
+[01:00:18][Error] Failed to register command /kickdimension, already registered
+[01:00:18] Loaded resource tdm
+[01:00:24][Error] Failed to create vehicle: 1208324078 is not a proper model hash
+[01:01:02] [chat:cmd] Mago1337: /veh t20 0 0
+[01:01:09] [chat:cmd] Mago1337: /veh a
+[01:01:16] [chat:cmd] Mago1337: /veh faction
+[01:01:20][Error] Failed to create vehicle: 1208324078 is not a proper model hash
+[01:01:31][Error] Failed to create vehicle: 1232605903 is not a proper model hash
+[01:01:36][Error] Failed to create vehicle: 9208057 is not a proper model hash
+[01:03:51] Stopping resource tdm
+[01:03:51] Stopped resource tdm
+[01:03:51] Loading resource tdm
+[01:03:51][Error] Failed to register command /timer, already registered
+[01:03:51][Error] Failed to register command /blip, already registered
+[01:03:51][Error] Failed to register command /dim, already registered
+[01:03:51][Error] Failed to register command /giveweapon, already registered
+[01:03:51][Error] Failed to register command /weapon, already registered
+[01:03:51][Error] Failed to register command /wep, already registered
+[01:03:51][Error] Failed to register command /clearweapons, already registered
+[01:03:51][Error] Failed to register command /clearweapon, already registered
+[01:03:51][Error] Failed to register command /clearwep, already registered
+[01:03:51][Error] Failed to register command /veh, already registered
+[01:03:51][Error] Failed to register command /vehicle, already registered
+[01:03:51][Error] Failed to register command /vcolor1, already registered
+[01:03:51][Error] Failed to register command /vcolor2, already registered
+[01:03:51][Error] Failed to register command /position, already registered
+[01:03:51][Error] Failed to register command /pos, already registered
+[01:03:51][Error] Failed to register command /skin, already registered
+[01:03:51][Error] Failed to register command /tpto, already registered
+[01:03:51][Error] Failed to register command /tp, already registered
+[01:03:51][Error] Failed to register command /kill, already registered
+[01:03:51][Error] Failed to register command /dimension, already registered
+[01:03:51][Error] Failed to register command /setdimension, already registered
+[01:03:51][Error] Failed to register command /invitedimension, already registered
+[01:03:51][Error] Failed to register command /invitedim, already registered
+[01:03:51][Error] Failed to register command /joindimension, already registered
+[01:03:51][Error] Failed to register command /joindim, already registered
+[01:03:51][Error] Failed to register command /kickdim, already registered
+[01:03:51][Error] Failed to register command /kickdimension, already registered
+[01:03:51] Loaded resource tdm
+[01:03:58][Error] Failed to create vehicle: 1208324078 is not a proper model hash
+[01:04:27][Warning] Event handler at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/events.mjs:12 was too long 27ms
+[01:05:10] Stopping resource chat
+[01:05:10] Stopping resource tdm
+[01:05:10] Stopped resource tdm
+[01:05:10] Stopped resource chat

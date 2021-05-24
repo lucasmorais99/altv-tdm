@@ -2,12 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\resources",
-    "\\resources\\chat",
-    "\\resources\\freeroam",
     "\\resources\\freeroam\\client",
     "\\resources\\freeroam\\server",
-    "\\resources\\freeroam\\server\\modules"
+    "\\resources\\freeroam\\server\\modules",
+    "\\resources\\gamemode",
+    "\\resources\\gamemode\\client",
+    "\\resources\\gamemode\\server",
+    "\\resources\\gamemode\\server\\modules",
+    "\\resources\\server-extended"
   ],
-  "SelectedNode": "\\resources\\freeroam\\server\\modules\\commandFunctions.mjs",
+  "SelectedNode": "\\resources\\server-extended\\client.mjs",
   "PreviewInSolutionExplorer": false
 }
