@@ -1,4 +1,4 @@
-import * as alt from 'alt';
+﻿import * as alt from 'alt';
 
 export function randomNumber(min, max) {  
     return Math.round(Math.random() * (max - min) + min); 

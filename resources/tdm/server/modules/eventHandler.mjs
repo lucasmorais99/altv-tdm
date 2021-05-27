@@ -1,4 +1,4 @@
-import * as alt from 'alt';
+﻿import * as alt from 'alt';
 import * as chat from 'chat';
 import * as helper from './helper.mjs';
 import * as clientEvent from './clientEventHandler.mjs'
@@ -54,7 +54,7 @@ alt.on('playerConnect', function (player) {
         if (player !== undefined) {
             let playerCount = alt.Player.all.length;
             chat.broadcast(`{1cacd4}${player.name} {ffffff}entrou no servidor. Atualmente:  (${playerCount} player(s) online)`);
-            chat.send(player, "{80eb34}Pressione {34dfeb}T {80eb34}e digite {34dfeb}/ajuda {80eb34}para ver os comandos dispon�veis.");
+            chat.send(player, "{80eb34}Pressione {34dfeb}T {80eb34}e digite {34dfeb}/ajuda {80eb34}para ver os comandos disponíveis.");
             chat.send(player, "{80eb34}Selecione a sua equipe.");
             alt.emitClient(player, "teamSelection");
         }

@@ -1,4 +1,4 @@
-import * as alt from 'alt';
+ï»¿import * as alt from 'alt';
 import * as chat from 'chat';
 import * as helper from './helper.mjs';
 import { weapons } from './lists.mjs';
@@ -23,7 +23,7 @@ function setPlayerTeam(player, sel) {
 		player.dimension = 0;
 		setTimeout(() => {
 			spawnPlayerVehicle(player, 'faction');
-			chat.send(player, `Você recebeu um veículo modelo {FFF000}Faction{FFFFFF} por ter se juntado à ${sel}.`);
+			chat.send(player, `VocÃª recebeu um veÃ­culo modelo {FFF000}Faction{FFFFFF} por ter se juntado Ã  ${sel}.`);
 			alt.emitClient(player, "freeroam:switchInOutPlayer", true);
 		}, 1000);
 	}
@@ -38,7 +38,7 @@ function setPlayerTeam(player, sel) {
 		player.dimension = 0;
 		setTimeout(() => {
 			spawnPlayerVehicle(player, 'tornado');
-			chat.send(player, `Você recebeu um veículo modelo {FFF000}Tornado{FFFFFF} por ter se juntado à ${sel}.`);
+			chat.send(player, `VocÃª recebeu um veÃ­culo modelo {FFF000}Tornado{FFFFFF} por ter se juntado Ã  ${sel}.`);
 			alt.emitClient(player, "freeroam:switchInOutPlayer", true);
 		}, 1000);
 	}
@@ -53,7 +53,7 @@ function setPlayerTeam(player, sel) {
 		player.dimension = 0;
 		setTimeout(() => {
 			spawnPlayerVehicle(player, 'police3');
-			chat.send(player, `Você recebeu um veículo modelo {FFF000}Police Cruiser{FFFFFF} por ter se juntado à ${sel}.`);
+			chat.send(player, `VocÃª recebeu um veÃ­culo modelo {FFF000}Police Cruiser{FFFFFF} por ter se juntado Ã  ${sel}.`);
 			alt.emitClient(player, "freeroam:switchInOutPlayer", true);
 		}, 1000);
 	}
@@ -69,7 +69,7 @@ function spawnPlayerVehicle(player, veh) {
 	try {
 		var vehicle = new alt.Vehicle(veh, player.pos.x+1, player.pos.y+1, player.pos.z, 0, 0, 0);
 	} catch {
-		chat.send(player, `{ff0000} Este veículo {ff9500}${veh} {ff0000}não existe.`);
+		chat.send(player, `{ff0000} Este veÃ­culo {ff9500}${veh} {ff0000}nÃ£o existe.`);
 	} finally {
 		var pvehs = player.getMeta("vehicles");
 		if (pvehs.length >= 1) {

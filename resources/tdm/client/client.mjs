@@ -1,4 +1,4 @@
-"use strict";
+ï»¿"use strict";
 /// <reference path="typings/altv-client.d.ts"/>
 /// <reference path="typings/natives.d.ts"/>
 import * as alt from 'alt';
@@ -27,7 +27,7 @@ alt.onServer("teamSelection", () => {
 
     team.AddItem(new NativeUI.UIMenuListItem(
         "Equipe",
-        "Mocinho ou malvado, aqui você pode ser o que quiser.",
+        "Mocinho ou malvado, aqui vocÃª pode ser o que quiser.",
         new NativeUI.ItemsCollection(["Ballas", "Vagos", "LSPD"])
     ));
 
@@ -40,7 +40,7 @@ alt.onServer("teamSelection", () => {
 
             alt.log(item.SelectedItem.DisplayText, item.SelectedItem.Data);
 
-            //notifications.showWithPicture('Mensagem da facção', 'Seu líder', `Agora você é da facção ${sel}. Lute por eles e derrote os inimigos.`, 'CHAR_BLANK_ENTRY', 1, false, -1, 3);
+            //notifications.showWithPicture('Mensagem da facÃ§Ã£o', 'Seu lÃ­der', `Agora vocÃª Ã© da facÃ§Ã£o ${sel}. Lute por eles e derrote os inimigos.`, 'CHAR_BLANK_ENTRY', 1, false, -1, 3);
 
             alt.emitServer('setPlayerTeam', sel);
 
@@ -50,7 +50,7 @@ alt.onServer("teamSelection", () => {
 });
 
 alt.onServer('playerEnterMarker', (player, id) => {
-    NativeUI.MidsizedMessage.ShowMidsizedShardMessage("Atenção", "Pressione E para reabastecer sua munição", NativeUI.HudColor.HUD_COLOUR_BLACK, true, true);
+    NativeUI.MidsizedMessage.ShowMidsizedShardMessage("AtenÃ§Ã£o", "Pressione E para reabastecer sua muniÃ§Ã£o", NativeUI.HudColor.HUD_COLOUR_BLACK, true, true);
 })
 
 // Menu de equipes
@@ -60,7 +60,7 @@ team.GetTitle().DropShadow = true;
 
 team.AddItem(new NativeUI.UIMenuListItem(
     "Equipe",
-    "Mocinho ou malvado, aqui você pode ser o que quiser.",
+    "Mocinho ou malvado, aqui vocÃª pode ser o que quiser.",
     new NativeUI.ItemsCollection(["Ballas", "Vagos", "LSPD"])
 ));
 
@@ -71,7 +71,7 @@ team.ItemSelect.on(item => {
 
         alt.log(item.SelectedItem.DisplayText, item.SelectedItem.Data);
 
-        //notifications.showWithPicture('Mensagem da facção', 'Seu líder', `Agora você é da facção ${sel}. Lute por eles e derrote os inimigos.`, 'CHAR_BLANK_ENTRY', 1, false, -1, 3);
+        //notifications.showWithPicture('Mensagem da facÃ§Ã£o', 'Seu lÃ­der', `Agora vocÃª Ã© da facÃ§Ã£o ${sel}. Lute por eles e derrote os inimigos.`, 'CHAR_BLANK_ENTRY', 1, false, -1, 3);
 
         alt.emitServer('setPlayerTeam', sel);
 

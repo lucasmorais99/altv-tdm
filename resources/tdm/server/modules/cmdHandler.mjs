@@ -1,26 +1,26 @@
-import * as alt from 'alt';
+ï»¿import * as alt from 'alt';
 import * as chat from 'chat';
 import { weapons } from './lists.mjs';
 
 chat.registerCmd("ajuda", function (player, args) {
     chat.send(player, "{ff0000}========== {eb4034}AJUDA {ff0000} ==========");
-    chat.send(player, "{ff0000}= {34abeb}/veh {40eb34}(modelo)   {ffffff} Spawna um veículo");
-    chat.send(player, "{ff0000}= {34abeb}/ir {40eb34}(targetPlayer)   {ffffff} Teleporta até o jogador alvo");
+    chat.send(player, "{ff0000}= {34abeb}/veh {40eb34}(modelo)   {ffffff} Spawna um veÃ­culo");
+    chat.send(player, "{ff0000}= {34abeb}/ir {40eb34}(targetPlayer)   {ffffff} Teleporta atÃ© o jogador alvo");
     chat.send(player, "{ff0000}= {34abeb}/skin {40eb34}(modelName)   {ffffff} Muda seu ped");
-    chat.send(player, "{ff0000}= {34abeb}/dararma {40eb34}(weaponName)   {ffffff} Pegar uma arma específica");
+    chat.send(player, "{ff0000}= {34abeb}/dararma {40eb34}(weaponName)   {ffffff} Pegar uma arma especÃ­fica");
     chat.send(player, "{ff0000}= {34abeb}/armas    {ffffff} Pegar todas as armas");
     chat.send(player, "{ff0000} ========================");
 });
 
 chat.registerCmd("veh", function (player, args) {
     if (args.length === 0) {
-        chat.send(player, "Usage: /veh (veículo)");
+        chat.send(player, "Usage: /veh (veÃ­culo)");
         return;
     }
     try {
         var vehicle = new alt.Vehicle(args[0], player.pos.x, player.pos.y, player.pos.z, 0, 0, 0);
     } catch {
-        chat.send(player, `{ff0000} Este veículo {ff9500}${args[0]} {ff0000}não existe.`);
+        chat.send(player, `{ff0000} Este veÃ­culo {ff9500}${args[0]} {ff0000}nÃ£o existe.`);
     } finally {
         var pvehs = player.getMeta("vehicles");
         if (pvehs.length >= 3) {
