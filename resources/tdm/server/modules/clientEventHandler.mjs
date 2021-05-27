@@ -82,3 +82,25 @@ function spawnPlayerVehicle(player, veh) {
 		player.setMeta("vehicles", pvehs);
 	}
 }
+
+// Player ammo refill
+alt.onClient('playerEnterMarker', (player, id) => {
+	alt.emitClient(player, 'playerEnterMarker');
+})
+
+alt.onClient('playerInteractWithMarker', (player, id) => {
+	if (playerTeam == 'Ballas') {
+		player.giveWeapon(alt.hash('weapon_pistol'), 48, false);
+		player.giveWeapon(alt.hash('weapon_machinepistol'), 90, false);
+	}
+
+	else if (playerTeam == 'Vagos') {
+		player.giveWeapon(alt.hash('weapon_pistol'), 48, false);
+		player.giveWeapon(alt.hash('weapon_machinepistol'), 90, false);
+	}
+
+	else if (playerTeam == 'LSPD') {
+		player.giveWeapon(alt.hash('weapon_pistol_mk2'), 48, false);
+		player.giveWeapon(alt.hash('weapon_specialcarbine_mk2'), 90, false);
+	}
+});

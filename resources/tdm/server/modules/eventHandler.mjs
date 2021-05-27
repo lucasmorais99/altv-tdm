@@ -2,6 +2,7 @@ import * as alt from 'alt';
 import * as chat from 'chat';
 import * as helper from './helper.mjs';
 import * as clientEvent from './clientEventHandler.mjs'
+import * as markerManager from 'altv-os-marker-manager';
 import { spawns } from './lists.mjs'
 import { spawnModels } from './lists.mjs'
 import { weaponsHash } from './lists.mjs'
@@ -16,6 +17,34 @@ alt.on('playerConnect', function (player) {
     alt.emitClient(player, "freeroam:switchInOutPlayer", false, 0, 1);
     player.model = spawnModels[helper.getRandomListEntry(spawnModels)];
     player.setMeta("vehicles", []);
+
+    markerManager.createMarker(20,
+        new alt.Vector3(170.74, -1723.23, 20.4), // position
+        new alt.Vector3(0, 0, 0), // Marker direction
+        new alt.Vector3(0, 0, 0), // Marker rotation
+        new alt.Vector3(1, 1, 1), // Marker scale
+        new alt.RGBA(255, 0, 0, 255), // Marker color
+        {} // Marker options (Read "Creating a marker")
+    )
+
+    markerManager.createMarker(20,
+        new alt.Vector3(68.9, -1569.9, 20.6), // position
+        new alt.Vector3(0, 0, 0), // Marker direction
+        new alt.Vector3(0, 0, 0), // Marker rotation
+        new alt.Vector3(1, 1, 1), // Marker scale
+        new alt.RGBA(255, 0, 0, 255), // Marker color
+        {} // Marker options (Read "Creating a marker")
+    )
+
+    markerManager.createMarker(20,
+        new alt.Vector3(360.7, -1584.5, 29.3), // position
+        new alt.Vector3(0, 0, 0), // Marker direction
+        new alt.Vector3(0, 0, 0), // Marker rotation
+        new alt.Vector3(1, 1, 1), // Marker scale
+        new alt.RGBA(255, 0, 0, 255), // Marker color
+        {} // Marker options (Read "Creating a marker")
+    )
+
     //var spawn = spawns[helper.getRandomListEntry(spawns)];
    // player.spawn(spawn.x, spawn.y, spawn.z, 0);
     alt.emitClient(player, "freeroam:spawned");

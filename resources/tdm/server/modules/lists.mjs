@@ -7,6 +7,10 @@ export const spawns = [
     { x: -265.3582458496094, y: -1898.0703125, z: 27.7464599609375 }
 ];
 
+export const pickupBallas = [{ x: 170.74, y: -1723.23, z: 29.4 }];
+export const pickupVagos = [{ x: 68.9, y: -1569.9, z: 29.6 }];
+export const pickupLSPD = [{ x: 360.7, y: -1584.5, z: 29.3 }];
+
 export const spawnBallas = [
     { x: 176.43, y: -1736.61, z: 29.27 }];
 export const spawnVagos = [

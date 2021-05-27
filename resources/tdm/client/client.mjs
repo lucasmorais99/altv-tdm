@@ -49,6 +49,10 @@ alt.onServer("teamSelection", () => {
     });
 });
 
+alt.onServer('playerEnterMarker', (player, id) => {
+    NativeUI.MidsizedMessage.ShowMidsizedShardMessage("Atenção", "Pressione E para reabastecer sua munição", NativeUI.HudColor.HUD_COLOUR_BLACK, true, true);
+})
+
 // Menu de equipes
 
 /*const team = new NativeUI.Menu("Equipes", "Selecione a sua equipe:", new NativeUI.Point(50, 50));
