@@ -1,273 +1,39 @@
-[00:47:17] alt:V Server 2.23 (release)
-[00:47:17] Starting alt:V Server on 192.168.1.13:7788
-[00:47:17] coreclr-module: version found: 3.1.15
-[00:47:17] coreclr-module: version found: 5.0.5
-[00:47:17] coreclr-module: version found: 5.0.6
-[00:47:17] coreclr-module: greatest version: 5.0.6
-[00:47:17] Loading resource altv-os-marker-manager
-[00:47:17] Loaded resource altv-os-marker-manager
-[00:47:17] Loading resource tdm
-[00:47:17] Loading resource chat
-[00:47:17] Loaded resource chat
-[00:47:17] Loaded resource tdm
-[00:47:17] Required server permissions:
-[00:47:17] Optional server permissions:
-[00:47:17] Starting HTTP server on 192.168.1.13:7788
-[00:47:17] Main thread started (ThreadId: 15632)
-[00:47:17] Colshape thread started (ThreadId: 21436)
-[00:47:17] EntityStreamer thread started (ThreadId: 14208)
-[00:47:17] Network thread started (ThreadId: 6612)
-[00:47:17] Console thread started (ThreadId: 1168)
-[00:47:17] Server started
-[00:47:21][Warning] Event handler at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/eventHandler.mjs:12 was too long 31ms
-[00:48:20][Warning] For changes in permissions, restarting server is required for changes to apply
-[00:48:20] Stopping resource tdm
-[00:48:20] Stopped resource tdm
-[00:48:20] Loading resource tdm
-[00:48:20][Error] Failed to register command /ajuda, already registered
-[00:48:20][Error] Failed to register command /veh, already registered
-[00:48:20][Error] Failed to register command /andar, already registered
-[00:48:20][Error] Failed to register command /pos, already registered
-[00:48:20][Error] Failed to register command /ir, already registered
-[00:48:20][Error] Failed to register command /skin, already registered
-[00:48:20][Error] Failed to register command /dararma, already registered
-[00:48:20][Error] Failed to register command /weapons, already registered
-[00:48:20][Error] Failed to register command /time, already registered
-[00:48:20] Loaded resource tdm
-[00:48:26] Mago1337 has leaved the server becauseof timed out
-[00:49:46] Stopping resource tdm
-[00:49:46] Stopped resource tdm
-[00:49:46] Loading resource tdm
-[00:49:46][Error] Failed to register command /ajuda, already registered
-[00:49:46][Error] Failed to register command /veh, already registered
-[00:49:46][Error] Failed to register command /andar, already registered
-[00:49:46][Error] Failed to register command /pos, already registered
-[00:49:46][Error] Failed to register command /ir, already registered
-[00:49:46][Error] Failed to register command /skin, already registered
-[00:49:46][Error] Failed to register command /dararma, already registered
-[00:49:46][Error] Failed to register command /weapons, already registered
-[00:49:46][Error] Failed to register command /time, already registered
-[00:49:46] Loaded resource tdm
-[00:49:48] Mago1337 has leaved the server becauseof timed out
-[00:50:01][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:01][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:01][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:01][Warning] Event handler at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:87 was too long 104ms
-[00:50:01][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:01][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:01][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:01][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:01][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:01][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:01][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:01][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:01][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:01][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:01][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:01][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:01][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:01][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:01][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:01][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:01][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:01][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:01][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:01][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:01][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:01][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:01][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:01][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:01][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:01][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:01][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:01][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:01][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:01][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:01][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:01][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:01][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:03][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:03][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:03][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:03][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:03][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:03][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:03][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:03][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:03][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:03][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:03][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:03][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:03][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:03][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:03][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:03][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:03][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:03][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:03][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:03][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:03][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:03][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:03][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:03][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:03][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:03][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:03][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:03][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:03][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:03][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:03][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:03][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:03][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:03][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:03][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:03][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:10][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:10][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:10][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:10][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:10][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:10][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:10][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:10][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:10][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:10][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:10][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:10][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:10][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:10][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:10][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:10][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:10][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:10][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:10][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:10][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:10][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:10][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:10][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:10][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:10][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:10][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:10][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:10][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:10][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:10][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:10][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:10][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:10][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:10][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:10][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:10][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:16][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:16][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:16][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:16][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:16][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:16][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:16][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:16][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:16][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:16][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:16][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:16][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:16][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:16][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:16][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:16][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:16][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:16][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:16][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:16][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:16][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:16][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:16][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:16][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:16][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:16][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:16][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:16][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:16][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:16][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:16][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:16][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:16][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:50:16][Error] [V8] Exception at tdm:file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88
-[00:50:16][Error]   	alt.emitClient(player, 'NativeUI.MidsizedMessage.ShowMidsizedShardMessage', "Me...
-[00:50:16][Error]   ReferenceError: NativeUI is not defined
-    at file:///D:/Blaine%20Life/altv-tdm/resources/tdm/server/modules/clientEventHandler.mjs:88:104
-[00:51:33] Stopping resource tdm
-[00:51:33] Stopped resource tdm
-[00:51:33] Loading resource tdm
-[00:51:33][Error] Failed to register command /ajuda, already registered
-[00:51:33][Error] Failed to register command /veh, already registered
-[00:51:33][Error] Failed to register command /andar, already registered
-[00:51:33][Error] Failed to register command /pos, already registered
-[00:51:33][Error] Failed to register command /ir, already registered
-[00:51:33][Error] Failed to register command /skin, already registered
-[00:51:33][Error] Failed to register command /dararma, already registered
-[00:51:33][Error] Failed to register command /weapons, already registered
-[00:51:33][Error] Failed to register command /time, already registered
-[00:51:33] Loaded resource tdm
-[00:51:38] Mago1337 has leaved the server becauseof timed out
-[00:56:39] Stopping resource tdm
-[00:56:39] Stopped resource tdm
-[00:56:39] Loading resource tdm
-[00:56:39][Error] Failed to register command /ajuda, already registered
-[00:56:39][Error] Failed to register command /veh, already registered
-[00:56:39][Error] Failed to register command /andar, already registered
-[00:56:39][Error] Failed to register command /pos, already registered
-[00:56:39][Error] Failed to register command /ir, already registered
-[00:56:39][Error] Failed to register command /skin, already registered
-[00:56:39][Error] Failed to register command /dararma, already registered
-[00:56:39][Error] Failed to register command /weapons, already registered
-[00:56:39][Error] Failed to register command /time, already registered
-[00:56:39] Loaded resource tdm
-[00:56:43] Mago1337 has leaved the server becauseof timed out
-[00:59:38] [chat:cmd] Mago1337: /time
+[23:38:37] alt:V Server 2.23 (release)
+[23:38:37] Starting alt:V Server on 192.168.1.13:7788
+[23:38:37] coreclr-module: version found: 3.1.15
+[23:38:37] coreclr-module: version found: 5.0.5
+[23:38:37] coreclr-module: version found: 5.0.6
+[23:38:37] coreclr-module: greatest version: 5.0.6
+[23:38:37] Loading resource altv-os-marker-manager
+[23:38:37] Loaded resource altv-os-marker-manager
+[23:38:37] Loading resource tdm
+[23:38:37] Loading resource chat
+[23:38:37] Loaded resource chat
+[23:38:38] Loaded resource tdm
+[23:38:38] Required server permissions:
+[23:38:38] Optional server permissions:
+[23:38:38] Starting HTTP server on 192.168.1.13:7788
+[23:38:38] Main thread started (ThreadId: 19188)
+[23:38:38] Colshape thread started (ThreadId: 19680)
+[23:38:38] EntityStreamer thread started (ThreadId: 10056)
+[23:38:38] Network thread started (ThreadId: 25076)
+[23:38:38] Console thread started (ThreadId: 19264)
+[23:38:38] Server started
+[23:39:36][Warning] Event handler at chat:file:///D:/Blaine%20Life/altv-tdm/resources/chat/server.js:17 was too long 31ms
+[23:40:18] [chat:msg] Mago1337: a
+[23:51:06][Warning] For changes in permissions, restarting server is required for changes to apply
+[23:51:06] Stopping resource tdm
+[23:51:06] Stopped resource tdm
+[23:51:06] Loading resource tdm
+[23:51:06][Error] Failed to register command /ajuda, already registered
+[23:51:06][Error] Failed to register command /veh, already registered
+[23:51:06][Error] Failed to register command /andar, already registered
+[23:51:06][Error] Failed to register command /pos, already registered
+[23:51:07][Error] Failed to register command /ir, already registered
+[23:51:07][Error] Failed to register command /skin, already registered
+[23:51:07][Error] Failed to register command /dararma, already registered
+[23:51:07][Error] Failed to register command /weapons, already registered
+[23:51:07][Error] Failed to register command /time, already registered
+[23:51:07] Loaded resource tdm
+[23:51:12] Mago1337 has leaved the server becauseof timed out
+[23:51:34] Mago1337 has leaved the server becauseof timed out

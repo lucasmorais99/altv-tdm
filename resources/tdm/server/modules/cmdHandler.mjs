@@ -23,7 +23,7 @@ chat.registerCmd("veh", function (player, args) {
         chat.send(player, `{ff0000} Este veículo {ff9500}${args[0]} {ff0000}não existe.`);
     } finally {
         var pvehs = player.getMeta("vehicles");
-        if (pvehs.length >= 3) {
+        if (pvehs.length >= 1) {
             var toDestroy = pvehs.pop();
             if (toDestroy != null) {
                 toDestroy.destroy();

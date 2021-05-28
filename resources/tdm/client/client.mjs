@@ -49,9 +49,30 @@ alt.onServer("teamSelection", () => {
     });
 });
 
-alt.onServer('playerEnterMarker', (player, id) => {
-    NativeUI.MidsizedMessage.ShowMidsizedShardMessage("Atenção", "Pressione E para reabastecer sua munição", NativeUI.HudColor.HUD_COLOUR_BLACK, true, true);
-})
+alt.onServer("teamShopMarker", () => {
+    const shop = new NativeUI.Menu("Loja", "Compre equipamento novo:", new NativeUI.Point(50, 50));
+    shop.GetTitle().DropShadow = true;
+    shop.SetSpriteBannerType(new NativeUI.Sprite("shopui_title_gunclub", "shopui_title_gunclub", new NativeUI.Point(0, 0), new NativeUI.Size()));
+
+    shop.AddItem(new NativeUI.UIMenuListItem(
+        "Equipe",
+        "Mocinho ou malvado, aqui você pode ser o que quiser.",
+        new NativeUI.ItemsCollection(["Ballas", "Vagos", "LSPD"])
+    ));
+
+    shop.Open();
+
+    shop.ItemSelect.on(item => {
+        if (item instanceof NativeUI.UIMenuListItem) {
+
+            let sel = item.SelectedItem.DisplayText;
+
+            alt.log(item.SelectedItem.DisplayText, item.SelectedItem.Data);
+
+            shop.Close();
+        }
+    });
+});
 
 // Menu de equipes
 

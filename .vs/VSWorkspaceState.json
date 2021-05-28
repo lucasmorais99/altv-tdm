@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\resources"
+    "\\resources",
+    "\\resources\\tdm",
+    "\\resources\\tdm\\client",
+    "\\resources\\tdm\\server",
+    "\\resources\\tdm\\server\\modules"
   ],
+  "SelectedNode": "\\resources\\tdm\\server\\modules\\helper.mjs",
   "PreviewInSolutionExplorer": false
 }

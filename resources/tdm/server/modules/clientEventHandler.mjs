@@ -85,22 +85,35 @@ function spawnPlayerVehicle(player, veh) {
 
 // Player ammo refill
 alt.onClient('playerEnterMarker', (player, id) => {
-	alt.emitClient(player, 'playerEnterMarker');
+	if (id < 3) {
+		chat.send(player, `Pressione{ff9500} E {ffffff}para reabastecer sua munição.`);
+	}
+	else if (id > 2 && id < 6) {
+		chat.send(player, `Pressione{ff9500} E {ffffff}para abrir a loja da sua facção.`);
+	}
 })
 
 alt.onClient('playerInteractWithMarker', (player, id) => {
-	if (playerTeam == 'Ballas') {
-		player.giveWeapon(alt.hash('weapon_pistol'), 48, false);
-		player.giveWeapon(alt.hash('weapon_machinepistol'), 90, false);
-	}
+	if (id < 3) {
+		if (playerTeam == 'Ballas') {
+			player.removeAllWeapons();
+			player.giveWeapon(alt.hash('weapon_pistol'), 48, false);
+			player.giveWeapon(alt.hash('weapon_machinepistol'), 90, false);
+		}
 
-	else if (playerTeam == 'Vagos') {
-		player.giveWeapon(alt.hash('weapon_pistol'), 48, false);
-		player.giveWeapon(alt.hash('weapon_machinepistol'), 90, false);
-	}
+		else if (playerTeam == 'Vagos') {
+			player.removeAllWeapons();
+			player.giveWeapon(alt.hash('weapon_pistol'), 48, false);
+			player.giveWeapon(alt.hash('weapon_machinepistol'), 90, false);
+		}
 
-	else if (playerTeam == 'LSPD') {
-		player.giveWeapon(alt.hash('weapon_pistol_mk2'), 48, false);
-		player.giveWeapon(alt.hash('weapon_specialcarbine_mk2'), 90, false);
+		else if (playerTeam == 'LSPD') {
+			player.removeAllWeapons();
+			player.giveWeapon(alt.hash('weapon_pistol_mk2'), 48, false);
+			player.giveWeapon(alt.hash('weapon_specialcarbine_mk2'), 90, false);
+		}
+	}
+	else if (id > 2 && id < 6) {
+		alt.emitClient(player, "teamShopMarker");
 	}
 });
