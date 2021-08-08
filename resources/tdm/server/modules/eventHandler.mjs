@@ -115,17 +115,17 @@ alt.on('playerDeath', (player, killer, weapon) => {
     alt.emitClient(player, "freeroam:switchInOutPlayer", false, 0, 2);
     setTimeout(function () {
         if (player !== undefined) {
-            if (clientEvent.playerTeam == 'Ballas') {
+            if (player.getData('team') == 'Ballas') {
                 player.spawn(176.43, -1736.61, 31, 0);
                 alt.emitClient(player, "freeroam:switchInOutPlayer", true);
                 alt.emitClient(player, "freeroam:clearPedBloodDamage");
             }
-            else if (clientEvent.playerTeam == 'Vagos') {
+            else if (player.getData('team') == 'Vagos') {
                 player.spawn(61.33, -1567, 29.44, 0);
                 alt.emitClient(player, "freeroam:switchInOutPlayer", true);
                 alt.emitClient(player, "freeroam:clearPedBloodDamage");
             }
-            else if (clientEvent.playerTeam == 'LSPD') {
+            else if (player.getData('team') == 'LSPD') {
                 player.spawn(380.67, -1580.83, 29.27, 0);
                 alt.emitClient(player, "freeroam:switchInOutPlayer", true);
                 alt.emitClient(player, "freeroam:clearPedBloodDamage");

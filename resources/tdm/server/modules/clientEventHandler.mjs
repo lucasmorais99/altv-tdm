@@ -6,12 +6,10 @@ import { skinBallas } from './lists.mjs'
 import { skinVagos } from './lists.mjs'
 import { skinLSPD } from './lists.mjs'
 
-var playerTeam;
-
 // Player Team Handler
 function setPlayerTeam(player, sel) {
 
-	playerTeam = sel;
+	player.setData('team', sel);
 
 	if (sel == 'Ballas') {
 		const randomBallas = Math.floor(Math.random() * skinBallas.length);
